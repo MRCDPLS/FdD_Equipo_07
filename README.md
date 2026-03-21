@@ -28,7 +28,7 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 | Foto | Nombre | Rol | Intereses |
 |------|--------|-----|-----------|
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Rebeca Cerdan** | Líder del equipo | Melómana, apasionada por la tecnología y fan de Genshin Impact |
-| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Siclali Fernandez** | Product Manager | Entender al ususario, diseñar solucicones inovarodas, comunicar el valor del proyecto  |
+| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Siclali Fernandez** | Product Manager | Entender al ususario, diseñar solucicones inovadoras, comunicar el valor del proyecto  |
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Marcelo Alarcon** | Diseñador/a | Diseño de prototipos, creatividad aplicada, analisis de datos |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Mariluz Quispe** | Encargado/a de documentación | Comunicación científica, redacción técnica, Formato APA |
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Bruno Evangelista** | Programador/a - Modelador/a | Programación, análisis de datos, simulación |
