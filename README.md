@@ -42,12 +42,21 @@ Fuente: Organización Mundial de la Propiedad Intelectual (OMPI).
 ## 👥 Integrantes del Equipo  
 
 | 📸 Foto | 👤 Nombre | 🎓 Rol | 💡 Intereses |
+<<<<<<< HEAD
 |:-------:|:--------:|:------:|:------------:|
 | <img src="/Recursos/Imágenes/rebeca.png" width="90"/> | **Rebeca Cerdan** | Líder del equipo | Melómana, apasionada por la tecnología y fan de Genshin Impact |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Siclali Fernandez** | Product Manager | Entender al ususario, diseñar solucicones innovadoras, comunicar el valor del proyecto  |
 | <img src="/Recursos/Imágenes/integrante3.png" width="90"/> | **Marcelo Alarcon** | Diseñador | Diseño de prototipos, creatividad aplicada, modelado 3D, investigador de UX |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Mariluz Quispe** | Encargada de Apoyo Ambiental | Proponer ideas para reducir el impacto ambiental, promover el uso responsable de materiales, contribuir con iniciativas que mejoren el cuidado del entorno  |
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Bruno Evangelista** | Programador - Modelador | Programación, análisis de datos, simulación |
+=======
+|----------|-----------|--------|---------------|
+| <img src="/Recursos/Imágenes/_rebecasco.png" width="90"/> | **Rebeca Cerdan** | Líder del equipo | Melómana, apasionada por la tecnología y fan de Genshin Impact |
+| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Siclali Fernandez** | Product Manager | Entender al ususario, diseñar solucicones inovadoras, comunicar el valor del proyecto  |
+| <img src="/Recursos/Imágenes/integrante3.png" width="90"/> | **Marcelo Alarcon** | Diseñador | Diseño de prototipos, creatividad aplicada, modelado 3D, investigacion de UX |
+| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Mariluz Quispe** |Encargada de Apoyo Ambiental | Proponer ideas para reducir el impacto ambiental, promover el uso responsable de materiales, contribuir con iniciativas que mejores en cuidado del entorno  |
+| <img src="/Recursos/Imágenes/bruno.png" width="90"/> | **Bruno Evangelista** | Programador y Modelador 3D | Programar una solución ante el cambio ambiental que sea ecosostenible |
+>>>>>>> 9e4ba9a (hola amigos de radiovision)
 
 ---
 
