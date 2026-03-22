@@ -41,8 +41,8 @@ Fuente: Organización Mundial de la Propiedad Intelectual (OMPI).
 
 ## 👥 Integrantes del Equipo  
 
-| 📸Foto | 👤 Nombre | 🎓 Rol | 💡 Intereses |
-|------|--------|-----|-----------|
+| 📸 Foto | 👤 Nombre | 🎓 Rol | 💡 Intereses |
+|----------|-----------|--------|---------------|
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Rebeca Cerdan** | Líder del equipo | Melómana, apasionada por la tecnología y fan de Genshin Impact |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Siclali Fernandez** | Product Manager | Entender al ususario, diseñar solucicones inovadoras, comunicar el valor del proyecto  |
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Marcelo Alarcon** | Diseñador | Diseño de prototipos, creatividad aplicada, analisis de datos |
