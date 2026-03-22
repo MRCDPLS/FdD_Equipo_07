@@ -8,11 +8,17 @@
 Somos el **Equipo 07** del curso **Fundamentos de Diseño 2026-1**, conformado por estudiantes de la carrera de Ingeniería Ambiental / Informática / Industrial.  
 Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental.  
 
-Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (ODS):**  
-- ODS 6: Agua Limpia y Saneamiento  
-- ODS 7: Energía asequible y no contaminante
-- ODS 14: Vida submarina 
+Nuestro proyecto se relaciona con los siguientes **Objetivos de Desarrollo Sostenible (ODS):**  
+- ODS 14 : VIDA SUBMARINA  
+La contaminación por plásticos y microplásticos representa una amenaza importante para los ecosistemas marinos. Estas partículas pueden permanecer durante muchos años en el agua y afectar a la fauna marina. Según científicos, entre 19 y 23 millones de toneladas de residuos plásticos ingresaron a los sistemas acuáticos en el 2016, y se estima que esta cifra podría alcanzar hasta 53 millones de toneladas anuales para 2030. Esta problemática afecta directamente a la vida submarina, ya que los organismos marinos pueden ingerir microplásticos, lo que altera los ecosistemas y la biodiversidad.
 
+- ODS 6: AGUA LIMPIA Y SANEAMIENTO 
+Los microplásticos también afectan la calidad del agua potable y los sistemas de tratamiento de aguas residuales. Estas partículas pueden ingresar a las plantas de tratamiento a través del lavado de ropa sintética y productos que contienen plástico. Aunque los sistemas de tratamiento pueden eliminar una parte de estos contaminantes, la gran cantidad de microplásticos sigue representando un desafío para garantizar agua segura y saneamiento adecuado.
+
+- ODS 7:ENERGÍA ASEQUIBLE Y NO CONTAMINANTE  
+Una de las formas de gestionar los residuos plásticos es la incineración para generar energía. Sin embargo, este proceso puede liberar gases de efecto invernadero que contribuyen al cambio climático. Estudios han estimado que las emisiones de gases de efecto invernadero provenientes de los plásticos podrían alcanzar 1.34 gigatoneladas por año para 2030. 
+
+Fuente: ScienceDirect(2021)
 ---
 
 ## 📸 Fotografía del Equipo  
@@ -29,9 +35,9 @@ Nos interesa trabajar en los siguientes **Objetivos de Desarrollo Sostenible (OD
 |------|--------|-----|-----------|
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Rebeca Cerdan** | Líder del equipo | Melómana, apasionada por la tecnología y fan de Genshin Impact |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Siclali Fernandez** | Product Manager | Entender al ususario, diseñar solucicones inovadoras, comunicar el valor del proyecto  |
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Marcelo Alarcon** | Diseñador/a | Diseño de prototipos, creatividad aplicada, analisis de datos |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Marcelo Alarcon** | Diseñador | Diseño de prototipos, creatividad aplicada, analisis de datos |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Mariluz Quispe** |Encargada de Apoyo Ambiental | Proponer ideas para reducir el impacto ambiental, promover el uso responsable de materiales, contribuir con iniciativas que mejores en cuidado del entorno  |
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Bruno Evangelista** | Programador/a - Modelador/a | Programación, análisis de datos, simulación |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Bruno Evangelista** | Programador- Modelador | Programación, análisis de datos, simulación |
 
 ---
 
