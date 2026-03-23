@@ -18,11 +18,6 @@ Los microplásticos también afectan la calidad del agua potable y los sistemas 
 - ODS 7:ENERGÍA ASEQUIBLE Y NO CONTAMINANTE  
 Una de las formas de gestionar los residuos plásticos es la incineración para generar energía. Sin embargo, este proceso puede liberar gases de efecto invernadero que contribuyen al cambio climático. Estudios han estimado que las emisiones de gases de efecto invernadero provenientes de los plásticos podrían alcanzar 1.34 gigatoneladas por año para 2030, lo que evidencia la necesidad de soluciones sostenibles que reduzcan la contaminación y promuevan el uso responsable de los recursos energéticos. 
 Fuente: ScienceDirect(2021)
-## 🌍 PROBLEMÁTICA 
-
-La acumulación de microplásticos en las zonas costeras representa un problema ambiental creciente. Durante actividades de limpieza de playas se ha observado una gran cantidad de microplásticos adheridos a la arena y presentes en el agua superficial. Se estima que el plástico constituye aproxiamdamente el 85% de los residuos que llegan a los océanos. Además, se proyecta que para el año 2040 los volúmenes de plástico que fluirán hacia el mar podrían casi triplicarse, alcanzando entre 23 y 37 millones de toneladas anuales. 
-Esta situación afecta gravemente a las especies marinas, desde organismos pequeños como el placton hasta tortugas, aves y mamíferos marinos, los cuales pueden sufrir intoxicación debido a la ingestión de plásticos.
-Asimismo, la contaminación por plásticos también representa un riesgo para la salud humanana y genera impactos económicos significativos en sectores como el turismo, la pesca y la limpieza ambiental.
 
 EJEMPLO  DE INICIATIVA RELACIONADA CON LA REDUCCIÓN DE PLÁSTICOS 
 
@@ -46,7 +41,7 @@ Fuente: Organización Mundial de la Propiedad Intelectual (OMPI).
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Rebeca Cerdan** | Líder del equipo | Melómana, apasionada por la tecnología y fan de Genshin Impact |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Siclali Fernandez** | Product Manager | Entender al ususario, diseñar solucicones inovadoras, comunicar el valor del proyecto  |
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Marcelo Alarcon** | Diseñador | Diseño de prototipos, creatividad aplicada, analisis de datos |
-| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Mariluz Quispe** |Encargada de Apoyo Ambiental | Proponer ideas para reducir el impacto ambiental, promover el uso responsable de materiales, contribuir con iniciativas que mejores en cuidado del entorno  |
+| <img src="/Recursos/Imágenes/integrante1.jpeg.jpeg" width="90"/> | **Mariluz Quispe** |Encargada de Apoyo Ambiental | Proponer ideas para reducir el impacto ambiental, promover el uso responsable de materiales, contribuir con iniciativas que mejores en cuidado del entorno  |
 | <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Bruno Evangelista** | Programador- Modelador | Programación, análisis de datos, simulación |
 
 ---
