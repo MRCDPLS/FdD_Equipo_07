@@ -41,13 +41,13 @@ Fuente: Organización Mundial de la Propiedad Intelectual (OMPI).
 
 ## 👥 Integrantes del Equipo  
 
-| <span>📸 Foto</span> | <span>👤 Nombre</span> | <span>🎓 Rol</span> | <span>💡 Intereses</span> |
-|:-------------------:|:---------------------:|:------------------:|:------------------------:|
-| <img src="/Recursos/Imágenes/rebeca.png" width="90"/> | **Rebeca Cerdan** | Líder del equipo | Melómana, apasionada por la tecnología y fan de Genshin Impact |
-| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Siclali Fernandez** | Product Manager | Entender al ususario, diseñar solucicones innovadoras, comunicar el valor del proyecto  |
-| <img src="/Recursos/Imágenes/integrante3.png" width="90"/> | **Marcelo Alarcon** | Diseñador | Diseño de prototipos, creatividad aplicada, modelado 3D, investigador de UX |
-| <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Mariluz Quispe** | Encargada de Apoyo Ambiental | Proponer ideas para reducir el impacto ambiental, promover el uso responsable de materiales, contribuir con iniciativas que mejoren el cuidado del entorno  |
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Bruno Evangelista** | Programador - Modelador | Programación, análisis de datos, simulación |
+| 📸 Foto | 👤 Nombre | 🎓 Rol | 💡 Intereses |
+|:-------:|:--------:|:------:|:------------:|
+| <img src="/Recursos/Imagenes/rebeca.png" height="110"/> | **Rebeca Cerdan** | 👑 Líder del equipo | 🎧 Melómana, 💻 tecnología, 🎮 fan de Genshin Impact |
+| <img src="/Recursos/Imagenes/integrante2.png" height="110"/> | **Siclali Fernandez** | 📊 Product Manager | 🧠 Entender al usuario, 💡 soluciones innovadoras |
+| <img src="/Recursos/Imagenes/integrante3.png" height="110"/> | **Marcelo Alarcon** | 🎨 Diseñador | 🧩 prototipos, ✨ creatividad, 🧱 modelado 3D |
+| <img src="/Recursos/Imagenes/integrante2.png" height="110"/> | **Mariluz Quispe** | 🌱 Apoyo Ambiental | ♻️ sostenibilidad, 🌍 cuidado ambiental |
+| <img src="/Recursos/Imagenes/integrante1.png" height="110"/> | **Bruno Evangelista** | 💻 Programador | 👨‍💻 programación, 📊 datos, 🤖 simulación |
 
 ---
 
