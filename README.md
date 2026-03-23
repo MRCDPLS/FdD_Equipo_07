@@ -34,16 +34,21 @@ Fuente: Organización Mundial de la Propiedad Intelectual (OMPI).
 ## 📸 Fotografía del Equipo  
 <p align="center">
 <img width="1408" height="768" alt="imagen_alumnos_IA" src="https://github.com/user-attachments/assets/3829718f-51c7-4d00-b262-ef37f178f059" />
-  <em>Figura 1. Fotografía del equipo 0X</em>
+  <em>Figura 1. Fotografía del equipo 07</em>
 </p>
 
 ---
 
 ## 👥 Integrantes del Equipo  
 
+<<<<<<< HEAD
 | 📸 Foto | 👤 Nombre | 🎓 Rol | 💡 Intereses |
 <<<<<<< HEAD
 |:-------:|:--------:|:------:|:------------:|
+=======
+| <span>📸 Foto</span> | <span>👤 Nombre</span> | <span>🎓 Rol</span> | <span>💡 Intereses</span> |
+|:-------------------:|:---------------------:|:------------------:|:------------------------:|
+>>>>>>> c86ded0065ec305238845a857b15f045753c98a1
 | <img src="/Recursos/Imágenes/rebeca.png" width="90"/> | **Rebeca Cerdan** | Líder del equipo | Melómana, apasionada por la tecnología y fan de Genshin Impact |
 | <img src="/Recursos/Imágenes/integrante2.png" width="90"/> | **Siclali Fernandez** | Product Manager | Entender al ususario, diseñar solucicones innovadoras, comunicar el valor del proyecto  |
 | <img src="/Recursos/Imágenes/integrante3.png" width="90"/> | **Marcelo Alarcon** | Diseñador | Diseño de prototipos, creatividad aplicada, modelado 3D, investigador de UX |
