@@ -44,11 +44,11 @@ Fuente: Organización Mundial de la Propiedad Intelectual (OMPI).
 
 | Foto | 👤 Nombre | 🎓 Rol | 💡 Intereses |
 | :---: | :---: | :---: | :---: |
-| <img src="/Recursos/Imágenes/rebeca.png" width="90"/> | **Rebeca Cerdan** | Líder del equipo ❤️ | 🎧 Melómana, 💻 tecnología, 🎮 fan de Genshin Impact |
-| <img src="/Recursos/Imágenes/Integrante2 .png" width="90"/> | **Siclali Fernandez** | Product Manager | 🧠 Entender al usuario, 💡 soluciones innovadoras, 📢 comunicar el valor del proyecto  |
-| <img src="/Recursos/Imágenes/integrante3.png" width="90"/> | **Marcelo Alarcon** | Diseñador | 🧩 prototipos, ✨ creatividad, 🧱 modelado 3D, 🔍 investigador UX |
-| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Mariluz Quispe** |Encargada de Apoyo Ambiental | ♻️ sostenibilidad, 🌍 cuidado ambiental |
-| <img src="/Recursos/Imágenes/bruno.png" width="90"/> | **Bruno Evangelista** | Programador y Modelador 3D | 📊 Programar una solución ecosostenible |
+| <img src="/Recursos/Imágenes/rebeca.png" width="90"/> | **Rebeca Cerdan** | ❤️ Líder del equipo | 🎧 Melómana, 🤖 tecnología, 🎮 fan de Genshin Impact |
+| <img src="/Recursos/Imágenes/Integrante2 .png" width="90"/> | **Siclali Fernandez** | 🚀 Product Manager | 🧠 Entender al usuario, 💡 soluciones innovadoras, 📢 comunicar el valor del proyecto  |
+| <img src="/Recursos/Imágenes/integrante3.png" width="90"/> | **Marcelo Alarcon** | 🎨 Diseñador | 🧩 prototipos, ✨ creatividad, 🧱 modelado 3D, 🔍 investigador UX |
+| <img src="/Recursos/Imágenes/integrante1.png" width="90"/> | **Mariluz Quispe** | 🌱 Encargada de Apoyo Ambiental | ♻️ sostenibilidad, 🌍 cuidado ambiental |
+| <img src="/Recursos/Imágenes/bruno.png" width="90"/> | **Bruno Evangelista** | 💻 Programador y Modelador 3D | 📊 Programar una solución ecosostenible |
 
 ---
 
