@@ -1,4 +1,4 @@
-# Equipo 07 - Nombre del curso
+# Equipo 07 - Fundamentos de Diseño
 ### Carrera de Ingeniería Ambiental / Informática / Industrial  
 **Universidad Peruana Cayetano Heredia**
 
