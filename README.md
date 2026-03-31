@@ -46,6 +46,5 @@ Fuente: Organización Mundial de la Propiedad Intelectual (OMPI).
 
 ---
 
-## 📌 Resumen Final  
-Este README resume quiénes somos, qué nos motiva y en qué ODS queremos enfocar nuestro trabajo durante el curso.  
-
+## 📌 Referencias bibliográficas  
+<a href="https://docs.google.com/document/d/19wrNcLlTT6bTCKCm24KRlWfMG4XQqMXDpSihX60No2Q/edit?usp=sharing">CONTAMINACION DE MICROPLASTICOS EN PLAYAS Y LAGUNAS</a>
