@@ -18,11 +18,19 @@ Los microplásticos también afectan la calidad del agua potable y los sistemas 
 - ⚡ **ODS 7: ENERGÍA ASEQUIBLE Y NO CONTAMINANTE**  
 Una de las formas de gestionar los residuos plásticos es la incineración para generar energía. Sin embargo, este proceso puede liberar gases de efecto invernadero que contribuyen al cambio climático. Estudios han estimado que las emisiones de gases de efecto invernadero provenientes de los plásticos podrían alcanzar 1.34 gigatoneladas por año para 2030, lo que evidencia la necesidad de soluciones sostenibles que reduzcan la contaminación y promuevan el uso responsable de los recursos energéticos. 
 📊 Fuente: ScienceDirect(2021)
-EJEMPLO  DE INICIATIVA RELACIONADA CON LA REDUCCIÓN DE PLÁSTICOS 
 
-* Un ejemplo de iniciativa para reducir la contaminación por plásticos es la "Caja de herramientas para colegio y universidades sobre residuos marinos y contaminación plástica". Este proyecto promueve la reducción del uso de plásticos en instituciones educativas mediante actividades de educación ambiental, reciclaje y consumo responsable. Estas acciones buscan disminuir la cantidad de residuos plásticos que llegan a los océanos y afectan los ecosistemas marinos. Fuente (ICCROM)
-* Una empresa innovadora que contribuye a la reducción de la contaminación por plásticos es Lactips, una compañía francesa que desarrolla materiales de envasado biodegradables a base de proteínas naturales. Estos materiales representan una alternativa sostenible al plástico convencional, ya que pueden degradarse completamente sin generar microplásticos ni residuos contaminantes en el ambiente. Este tipo de innovación demuestra la importancia de desarrollar tecnologías que reduzcan la generación de residuos plásticos desde su origen . 
-Fuente: Organización Mundial de la Propiedad Intelectual (OMPI).
+EJEMPLO  DE INICIATIVA RELACIONADA CON LA REDUCCIÓN DE MICRO PLÁSTICOS  
+
+* El dispositivo creado por Zhang Dongqing y su equipo en 2021 ha transformado la detección de microplásticos en el océano al sustituir el lento proceso de recolección y análisis en laboratorio por un sistema de procesamiento directo que permite una separación eficiente y sencilla de las partículas contaminantes presentes en el agua de mar. Esta tecnología con forma de cilindro se instala verticalmente a través de un orificio roscado y utiliza un mecanismo avanzado de filtrado con presión positiva y negativa para aislar los microplásticos de manera inmediata a medida que el flujo de agua ingresa al sistema optimizando así las labores de monitoreo ambiental en tiempo real
+
+* El creador Niu Xiaojun y su equipo crearon un dispositivo de recolección de micro plásticos con diferentes diámetros en agua de mar, incluye varios discos de recolección con ranuras verticales deslizantes para aumentar su eficiencia, patento su dispositivo en el año 2022.
+El dispositivo de recolección incluye una caja de recolección, un componente de recolección, una caja de almacenamiento primaria, un cuerpo móvil subacuático y una fuente de alimentación para el dispositivo.
+
+* Se presenta un dispositivo portátil diseñado para recolectar microplásticos mezclados con arena en playas.
+El aparato está compuesto por un cabezal de succión que aspira los microplásticos, un conducto por donde estos son transportados y un bastidor principal que contiene una bolsa de recolección. El sistema incluye un cepillo electrostático que atrae los microplásticos mediante electricidad estática, permitiendo su separación eficiente de la arena. Finalmente, los microplásticos separados son transportados a través del conducto y almacenados en una bolsa de recolección, facilitando su manejo y eliminación.
+
+* Una patente llamada "Dispositivo de recolección de muestras de microplásticos aplicado a costas marinas y playas" describe un sistema denominado Ocean Cleanup Autonomous System (OCAS), diseñado para la recolección, clasificación y transporte de residuos marinos mediante una red de embarcaciones autónomas interconectadas complementado con combustible. Asimismo, incorpora el uso de energías renovables (solar, eólica, undimotriz) y usa principios físicos de la electrostática y densidad.
+
 ---
 
 ## 📸 Fotografía del Equipo  
