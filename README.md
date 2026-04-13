@@ -10,6 +10,26 @@ Somos el <strong>Equipo 07</strong> del curso <strong>Fundamentos de Diseño 202
 Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental que contribuya a la reducción de la contaminación por microplásticos en ecosistemas marinos. 
 </p>
 
+<p align="justify">
+La solución se basa en la recolección de muestras de agua y sedimentos, seguida de su análisis mediante visión artificial y procesamiento de imágenes, permitiendo identificar partículas plásticas (tanto de PET como PP) de tamaño menor a 5 mm en menor tiempo.
+
+---
+
+## 🎯 Introducción
+
+
+---
+
+## ⚠️ Problemática
+
+---
+
+## 💡 Presentación de la solución
+<p align="justify">
+El presente proyecto propone el desarrollo de un <strong>sistema inteligente de la detectión, cuantificación y clasificación de microplásticos</strong> en cuerpos de agua, como lagunas y playas de Lima, donde la contaminación por residuos plásticos representa una amenaza creciente para los ecosistemas y la salud humana.
+</p>
+---
+
 Nuestro proyecto se relaciona con los siguientes **Objetivos de Desarrollo Sostenible (ODS):**  
 - 🐠 **ODS 14 : VIDA SUBMARINA**  
 La contaminación por plásticos y microplásticos representa una amenaza importante para los ecosistemas marinos. Estas partículas pueden permanecer durante muchos años en el agua y afectar a la fauna marina. Se estima que entre 19 y 23 millones de toneladas de residuos plásticos ingresaron a los sistemas acuáticos en el 2016, y se prevé que esta cifra podría alcanzar hasta 53 millones de toneladas anuales para 2030. Esta problemática afecta directamente a la vida submarina, ya que los organismos marinos pueden ingerir microplásticos, lo que altera los ecosistemas y la biodiversidad.
