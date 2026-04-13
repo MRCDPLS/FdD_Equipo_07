@@ -5,8 +5,10 @@
 ---
 
 ## 🌍 Descripción del Equipo  
-Somos el **Equipo 07** del curso **Fundamentos de Diseño 2026-1**, conformado por estudiantes de la carrera de Ingeniería Ambiental, Informática e Industrial.  
-Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental, enfocadas en la reducción de la contaminación por microplásticos en ecosistemas marinos. 
+<p align="justify">
+Somos el <strong>Equipo 07</strong> del curso <strong>Fundamentos de Diseño 2026</strong>, conformado por estudiantes de la carrera de Ingeniería Ambiental / Informática / Industrial.  
+Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental que contribuya a la reducción de la contaminación por microplásticos en ecosistemas marinos. 
+</p>
 
 Nuestro proyecto se relaciona con los siguientes **Objetivos de Desarrollo Sostenible (ODS):**  
 - 🐠 **ODS 14 : VIDA SUBMARINA**  
