@@ -7,46 +7,65 @@
 ## 🌍 Descripción del Equipo  
 <p align="justify">
 Somos el <strong>Equipo 07</strong> del curso <strong>Fundamentos de Diseño 2026</strong>, conformado por estudiantes de la carrera de Ingeniería Ambiental / Informática / Industrial.  
-Nuestro objetivo es aplicar la metodología de diseño para generar soluciones innovadoras con impacto social, tecnológico y ambiental que contribuya a la reducción de la contaminación por microplásticos en ecosistemas marinos. 
+Nuestro objetivo es diseñar e implementar una solución tecnológica basada en metodologías de diseño que permita la detección y clasificación de microplásticos en ecosistemas marino, con el proposito de que las playas tengan el antiguo brillo de antes, y que los animales marinos esten bien. 
 </p>
 
 ---
 
 ## 📌 Descripción del Proyecto
 <p align="justify">
-La solución se basa en la recolección de muestras de agua y sedimentos, seguida de su análisis mediante visión artificial y procesamiento de imágenes, permitiendo identificar partículas plásticas (tanto de PET como PP) de tamaño menor a 5 mm en menor tiempo.
+El equipo 07 desarrollará un disposito de detección automatizada de microplásticos mediante técnicas de procesamiento de imágenes, integrando hardware de bajo costo (como ESP32-CAM) y machine learning para su aplicación en entornos marinos con apoyo de la IA para diferenciarse de la competencia. La solución busca mejorar la identificación temprana de contaminantes y aportar a la mitigación de su impacto ambiental.
+</p>
 
----
-
-## 🎯 Introducción
-
-
----
-
-## ⚠️ Problemática
-
----
-
-## 💡 Presentación de la solución
 <p align="justify">
-El presente proyecto propone el desarrollo de un <strong>sistema inteligente de la detectión, cuantificación y clasificación de microplásticos</strong> en cuerpos de agua, como lagunas y playas de Lima, donde la contaminación por residuos plásticos representa una amenaza creciente para los ecosistemas y la salud humana.
+El objetivo principal de este proyecto es reducir reducir la presencia de microplásticos en entornos acuáticos, contribuyendo al cumplimiento de los ODS 6 (Agua limpia y saneamiento), 7 (Energía asequible y no contaminante) y 14 (Vida submarina).
+</p>
+
+---
+
+## ⚠️ Problemática 
+
+---
+
+## 💡 Presentación de la solución 
+<p align="justify">
+El presente proyecto propone el desarrollo de un <strong>sistema inteligente dpara la detección, cuantificación y clasificación de microplástico</strong> en cuerpos de agua, como lagunas y playas de Lima, donde la contaminación por residuos plásticos representa una amenaza creciente para los ecosistemas y la salud humana.
 </p>
 
 <p align="justify">
 La solución se basa en la recolección de muestras de agua y sedimentos, seguida de su análisis mediante visión artificial y procesamiento de imágenes, permitiendo identificar partículas plásticas de tamaño menor a 5 mm.
+</p>
+
+<p align="justify">
+Bajo el enfoque de ingeniería, el proyecto integra principalmente <strong>procesamiento de imágenes, machine learning, electrónica con sensores y microcontroladores</strong>. Esto permite transformar un proceso tradicionalmente manual en un sistema automatizado, escalable y replicable.
+</p>
+
+<p align="justify">
+El valor innovador radica que <strong>automatiza la detección de microplásticos y macroplásticos, reduce costos frente a un análisis de laboratorio y que puede ser adaptada en distintas zonas del país</strong>.
+</p>
 
 ---
 
-Nuestro proyecto se relaciona con los siguientes **Objetivos de Desarrollo Sostenible (ODS):**  
+## 🎯 Objetivos de Desarrollo Sostenible (ODS)
+<p align="justify">
+Nuestro proyecto se relaciona con los siguientes <strong>Objetivos de Desarrollo Sostenible (ODS)</strong>: 
+</p>
+
 - 🐠 **ODS 14 : VIDA SUBMARINA**  
-La contaminación por plásticos y microplásticos representa una amenaza importante para los ecosistemas marinos. Estas partículas pueden permanecer durante muchos años en el agua y afectar a la fauna marina. Se estima que entre 19 y 23 millones de toneladas de residuos plásticos ingresaron a los sistemas acuáticos en el 2016, y se prevé que esta cifra podría alcanzar hasta 53 millones de toneladas anuales para 2030. Esta problemática afecta directamente a la vida submarina, ya que los organismos marinos pueden ingerir microplásticos, lo que altera los ecosistemas y la biodiversidad.
+  La contaminación por plásticos y microplásticos representa una amenaza importante para los ecosistemas marinos. Estas partículas pueden permanecer durante muchos años en el agua y afectar a la fauna marina. Se estima que entre 19 y 23 millones de toneladas de residuos plásticos ingresaron a los sistemas acuáticos en el 2016, y se prevé que esta cifra podría alcanzar hasta 53 millones de toneladas anuales para 2030. Esta problemática afecta directamente a la vida submarina, ya que los organismos marinos pueden ingerir microplásticos, lo que altera los ecosistemas y la biodiversidad.
+
+---
 
 - 💧 **ODS 6: AGUA LIMPIA Y SANEAMIENTO**  
-Los microplásticos también afectan la calidad del agua potable y los sistemas de tratamiento de aguas residuales. Estas partículas pueden ingresar a las plantas de tratamiento a través del lavado de ropa sintética y productos que contienen plástico. Aunque los sistemas de tratamiento pueden eliminar una parte de estos contaminantes, la gran cantidad de microplásticos sigue representando un desafío para garantizar agua segura y saneamiento adecuado.
+  Los microplásticos también afectan la calidad del agua potable y los sistemas de tratamiento de aguas residuales. Estas partículas pueden ingresar a las plantas de tratamiento a través del lavado de ropa sintética y productos que contienen plástico. Aunque los sistemas de tratamiento pueden eliminar una parte de estos contaminantes, la gran cantidad de microplásticos sigue representando un desafío para garantizar agua segura y saneamiento adecuado.
+
+---
 
 - ⚡ **ODS 7: ENERGÍA ASEQUIBLE Y NO CONTAMINANTE**  
-Una de las formas de gestionar los residuos plásticos es la incineración para generar energía. Sin embargo, este proceso puede liberar gases de efecto invernadero que contribuyen al cambio climático. Estudios han estimado que las emisiones de gases de efecto invernadero provenientes de los plásticos podrían alcanzar 1.34 gigatoneladas por año para 2030, lo que evidencia la necesidad de soluciones sostenibles que reduzcan la contaminación y promuevan el uso responsable de los recursos energéticos. 
+  Una de las formas de gestionar los residuos plásticos es la incineración para generar energía. Sin embargo, este proceso puede liberar gases de efecto invernadero que contribuyen al cambio climático. Estudios han estimado que las emisiones de gases de efecto invernadero provenientes de los plásticos podrían alcanzar 1.34 gigatoneladas por año para 2030, lo que evidencia la necesidad de soluciones sostenibles que reduzcan la contaminación y promuevan el uso responsable de los recursos energéticos. 
 📊 Fuente: ScienceDirect(2021)
+
+---
 
 EJEMPLO  DE INICIATIVA RELACIONADA CON LA REDUCCIÓN DE MICRO PLÁSTICOS  
 
@@ -62,14 +81,18 @@ El aparato está compuesto por un cabezal de succión que aspira los microplást
 
 ---
 
-## 📸 Fotografía del Equipo  
-<p align="center">
-<img width="1408" height="768" alt="imagen_alumnos_IA" src="Recursos/Imágenes/foto grupal.jpeg" />
-  <em>Figura 1. Fotografía del equipo 07</em>
-</p>
+## 📖 Referencias bibliográficas 
+
 
 ---
 
+## 📸 Fotografía del Equipo  
+<p align="center">
+<img width="1408" height="768" alt="imagen_alumnos_IA" src="Recursos/Imágenes/foto grupal.jpeg" />
+  <em>Figura 1. Fotografía del Equipo 07</em>
+</p>
+
+---
 
 ## 👥 Integrantes del Equipo  
 
@@ -83,5 +106,4 @@ El aparato está compuesto por un cabezal de succión que aspira los microplást
 
 ---
 
-## 📌 Referencias bibliográficas  
-<a href="https://docs.google.com/document/d/19wrNcLlTT6bTCKCm24KRlWfMG4XQqMXDpSihX60No2Q/edit?usp=sharing">CONTAMINACION DE MICROPLASTICOS EN PLAYAS Y LAGUNAS</a>
+## 📌 Resumen final  
