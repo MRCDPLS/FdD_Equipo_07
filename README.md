@@ -9,12 +9,15 @@
 Somos el <strong>Equipo 07</strong> del curso <strong>Fundamentos de Diseño 2026</strong>, conformado por estudiantes de la carrera de Ingeniería Ambiental / Informática / Industrial.  
 Nuestro objetivo es diseñar e implementar una solución tecnológica basada en metodologías de diseño que permita la detección y clasificación de microplásticos en ecosistemas marino, con el proposito de que las playas tengan el antiguo brillo de antes, y que los animales marinos esten bien. 
 </p>
+
 ---
-## 📌 Descripcion 
+##   📌 Descripcion 
 <p align="justify">
 Este proyecto tiene como objetivo desarrollar un sistema de detección automatizada de microplásticos mediante técnicas de procesamiento de imágenes, integrando hardware de bajo costo (como ESP32-CAM) para su aplicación en entornos marinos eh IA para diferenciarse de la competencia. La solución busca mejorar la identificación temprana de contaminantes y aportar a la mitigación de su impacto ambiental.
 </p>
+
 ---
+
 <p align="justify">
 Nuestro proyecto se relaciona con los siguientes **Objetivos de Desarrollo Sostenible (ODS):**  
 - 🐠 **ODS 14 : VIDA SUBMARINA**  
