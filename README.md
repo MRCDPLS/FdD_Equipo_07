@@ -23,6 +23,10 @@ El objetivo principal de este proyecto es reducir reducir la presencia de microp
 
 ---
 
+## 🔍 Introducción
+
+---
+
 ## ⚠️ Problemática 
 
 ---
