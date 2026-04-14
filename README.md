@@ -69,7 +69,7 @@ La arquitectura del sistema está compuesto por tres módulos principales:
 
 ### 🔹 Módulo 2: Registro y análisis 
 - Integración de hardware (ej. ESP32-CAM).  
-- Procesamiento con ImageJ:
+- Procesamiento con ImageJ: (17)
     - Identificación de partículas.
     - Medición de tamaño.
 
@@ -138,6 +138,7 @@ El aparato está compuesto por un cabezal de succión que aspira los microplást
 14. Ministerio del Ambiente (MINAM). Plásticos. Lima: Red Peruana Ciclo de Vida y Ecología Industrial (PELCAN); 2026.
 15. Purca S, Henostroza A. Presencia de microplásticos en cuatro playas arenosas de Perú. Rev Peru Biol. 2017;24(1):101-106. doi:10.15381/rpb.v24i1.12724
 16. Flores K, Seminario M, Canchari F, Alvariño L, Miñaya D, Castañeda L, et al. Contaminación por microplásticos en tres peces marinos del Perú. Rev Inv Vet Perú. 2026;37(1):e32888. doi:10.15381/rivep.v37i1.32888
+17. Schneider CA, Rasband WS, Eliceiri KW. NIH Image to ImageJ: 25 years of image analysis. Nat Methods. 2012 Jul;9(7):671–5. doi:10.1038/nmeth.2089.
 
 ---
 
