@@ -82,7 +82,7 @@ La arquitectura del sistema está compuesto por tres módulos principales:
 
 ### 🔹 Módulo 2: Registro y análisis 
 - Integración de hardware (ej. ESP32-CAM).  
-- Procesamiento con ImageJ: (17)
+- Procesamiento con ImageJ: (19)
     - Identificación de partículas.
     - Medición de tamaño.
 
