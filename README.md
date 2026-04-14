@@ -163,3 +163,6 @@ El aparato está compuesto por un cabezal de succión que aspira los microplást
 ---
 
 ## 📌 Resumen final  
+<p align="justify">
+El proyecto del Equipo 07 propone un <strong>sistema inteligente para detectar y clasificar microplásticos (PP y PET)</strong> en las costas de Lima, utilizando <strong>hardware de bajo costo</strong> como la ESP32-CAM y modelos de inteligencia artificial para automatizar un proceso que usualmente es manual y costoso. La solución se divide en tres etapas que incluyen la recolección física de muestras, el análisis mediante visión artificial y el registro de datos en tiempo real, con el fin de <strong>proteger la biodiversidad marina y la salud humana</strong> frente a la alta contaminación de plásticos en el litoral peruano. Al alinearse con los <strong>Objetivos de Desarrollo Sostenible</strong> (Vida submarina, Agua limpia y Energía asequible), este dispositivo busca ser una herramienta escalable y eficiente para mitigar el impacto ambiental, inspirándose en tecnologías globales de filtrado y recolección electrostática para devolver la limpieza a los ecosistemas acuáticos.
+</p>
