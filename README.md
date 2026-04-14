@@ -29,25 +29,59 @@ El objetivo principal de este proyecto es reducir reducir la presencia de microp
 
 ## ⚠️ Problemática 
 ### Problemática a Nivel Mundial
+<p align="justify">
 La crisis de los microplásticos está impulsada principalmente por polímeros de alta producción como el polipropileno (PP) y el polietileno tereftalato (PET). El polipropileno representa aproximadamente el 21 % de la producción total de plásticos no fibrosos, siendo ampliamente utilizado en envases, empaques y materiales industriales, lo que incrementa su liberación al ambiente tras su disposición final inadecuada (9). Por su parte, el PET constituye un material fundamental en la industria de bebidas y textiles sintéticos, donde domina la producción de fibras artificiales utilizadas globalmente (9,10).
+</p>
+
 #### Impactos y comportamiento:
 * Persistencia diferencial: El PET tiende a degradarse más lentamente que otros polímeros como el polietileno, lo que prolonga su presencia en el entorno(10,11).
 * Comportamiento en el agua: El PP posee una densidad aproximada de 0.94 g/mL, característica que le permite flotar y dispersarse ampliamente en la superficie marina. En contraste, el PET presenta mayor densidad, favoreciendo su sedimentación y acumulación en fondos acuáticos (10,11).
 * Presencia en humanos: Diversas investigaciones han evidenciado la presencia de microplásticos en muestras biológicas humanas. Partículas de PP han sido detectadas en placenta y heces humanas, mientras que el PET constituye uno de los polímeros más frecuentemente identificados en sangre y muestras fecales, evidenciando su ingreso a la cadena alimentaria y posible impacto en la salud humana (10,12).
+
 ### Problemática a Nivel Local
+<p align="justify">
 En Lima y el Callao, el PP y el PET representan contaminantes prioritarios debido al elevado consumo de productos descartables y a deficiencias en la gestión integral de residuos sólidos. Se estima que cerca del 40 % de los residuos generados en el país no recibe una disposición adecuada, terminando en ríos, playas y ecosistemas marinos donde se fragmentan progresivamente en microplásticos (14).
+</p>
+
 #### Hallazgos específicos en Lima:
 * Contaminación en playas: Estudios realizados en playas arenosas del litoral peruano han confirmado la presencia de microplásticos mediante análisis espectroscópicos, identificándose partículas de polipropileno asociadas a residuos marinos transportados por corrientes costeras y acumulación de basura oceánica (15).
 * Riesgo en recursos pesqueros: Investigaciones recientes en especies comerciales capturadas en terminales pesqueros de Lima y Callao reportaron la presencia de microplásticos en el 100 % de algunas especies analizadas, evidenciando la transferencia de estas partículas dentro de la red trófica marina y su potencial riesgo para el consumo humano(14). El uso de PP en artes de pesca y la degradación de botellas de PET constituyen fuentes directas de contaminación en el ecosistema marino local (10,14).
 
 ## 💡 Presentación de la solución 
 <p align="justify">
-El presente proyecto propone el desarrollo de un <strong>sistema inteligente dpara la detección, cuantificación y clasificación de microplástico</strong> en cuerpos de agua, como lagunas y playas de Lima, donde la contaminación por residuos plásticos representa una amenaza creciente para los ecosistemas y la salud humana.
+El presente proyecto propone el desarrollo de un <strong>sistema inteligente para la detección y clasificación de microplástico como el polipropileno (PP) y el polietileno tereftalato (PET)</strong> en cuerpos de agua, como lagunas y playas de Lima, donde la contaminación por residuos plásticos representa una amenaza creciente para los ecosistemas y la salud humana.
 </p>
 
 <p align="justify">
-La solución se basa en la recolección de muestras de agua y sedimentos, seguida de su análisis mediante visión artificial y procesamiento de imágenes, permitiendo identificar partículas plásticas de tamaño menor a 5 mm.
+La solución se basa en la recolección de muestras de agua y sedimentos, seguida de su análisis mediante visión artificial y procesamiento de imágenes, lo que permite identificar y caracterizar partículas plásticas presentes en el entorno.
 </p>
+
+<p align="justify">
+La arquitectura del sistema está compuesto por tres módulos principales:
+</p>
+
+### 🔹 Módulo 1: Recolección y filtrado  
+- Captación de muestras de agua mediante un sistema manual o con bomba.
+- Filtrado por mallas de diferentes tamaños.
+- Separación de:
+    - Macroplásticos (> 5 mm).
+    - Microplásticos.  
+
+### 🔹 Módulo 2: Registro y análisis 
+- Integración de hardware (ej. ESP32-CAM).  
+- Procesamiento con ImageJ:
+    - Identificación de partículas.
+    - Medición de tamaño.
+
+### 🔹 Módulo 3: Clasificación y registro inteligente  
+- Uso de modelos de inteligencia artificial para clasificar polímeros:
+    - PET (botellas).
+    - PP (envases, tapas). 
+- Registro de datos:
+    - Cantidad de particulas.  
+    - Tipo de plástico predominante.
+    - Ubicación y tiempo de muestreo. 
+- Visualización en una interfaz digital (app o dashboard).
 
 <p align="justify">
 Bajo el enfoque de ingeniería, el proyecto integra principalmente <strong>procesamiento de imágenes, machine learning, electrónica con sensores y microcontroladores</strong>. Esto permite transformar un proceso tradicionalmente manual en un sistema automatizado, escalable y replicable.
