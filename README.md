@@ -24,28 +24,41 @@ El objetivo principal de este proyecto es reducir reducir la presencia de microp
 ---
 
 ## 🔍 Introducción
+En las últimas décadas, la producción y el uso masivo de plásticos han generado un incremento significativo de residuos sólidos en el ambiente, lo que ha ocasionado la acumulación de partículas plásticas en diversos ecosistemas a nivel mundial. Estas partículas, conocidas como microplásticos, se originan principalmente por la fragmentación de materiales plásticos de mayor tamaño y se han convertido en un contaminante emergente de gran preocupación ambiental y sanitaria (1,2).
+
+Los microplásticos se definen como partículas plásticas con un tamaño menor a 5 mm y pueden encontrarse en una amplia variedad de entornos, incluyendo océanos, ríos, suelos y el aire. Debido a su pequeño tamaño y resistencia a la degradación, estas partículas permanecen en el ambiente durante largos periodos y pueden transportarse a través de diferentes medios naturales, lo que favorece su dispersión en ecosistemas acuáticos y terrestres (3,4). 
+
+En el Perú, la gestión inadecuada de residuos sólidos y el manejo deficiente de los desechos costeros han favorecido la presencia de plásticos en ambientes marinos. Investigaciones científicas realizadas en la costa peruana han evidenciado la presencia de microplásticos en diferentes zonas, demostrando que estos contaminantes se distribuyen ampliamente y se generan a partir de la degradación continua de residuos plásticos en el ambiente (5).
+
+Además de su presencia en el ambiente, los microplásticos también han sido detectados en organismos vivos, incluyendo especies marinas y seres humanos. Estudios científicos han demostrado que estas partículas pueden ingresar al cuerpo humano mediante la ingestión de alimentos contaminados o la inhalación de aire con partículas suspendidas, lo que ha generado preocupación sobre sus posibles efectos en la salud humana (6,7).
+
+Diversas investigaciones han señalado que la exposición a microplásticos puede provocar efectos adversos en la salud, tales como inflamación, estrés oxidativo y alteraciones en tejidos y órganos. Asimismo, estos contaminantes representan una amenaza significativa para los ecosistemas, ya que afectan a organismos acuáticos y pueden alterar las cadenas alimentarias y la biodiversidad (2,8).
+
+En este contexto, el presente proyecto tiene como objetivo determinar la presencia de microplásticos (MPs) en lagunas y playas de Lima, mediante la implementación de una metodología para su análisis e identificación, enfocándose en polímeros sintéticos de uso común como el polipropileno (PP) y el polietileno tereftalato (PET). Este tipo de estudios resulta fundamental para comprender la magnitud de la contaminación por microplásticos y contribuir al desarrollo de estrategias para la protección de los recursos hídricos y la salud ambiental(9).
+
+Ante este escenario, resulta necesario implementar estrategias que permitan mitigar la acumulación de microplásticos en sedimentos y cuerpos de agua. En este sentido, la presente propuesta se enmarca en los Objetivos de Desarrollo Sostenible (ODS), específicamente en el ODS 6, orientado a la protección de la calidad del agua y la salud de los ecosistemas acuáticos, y en el ODS 14, enfocado en la reducción de la contaminación de origen terrestre que afecta la biodiversidad marina y la sostenibilidad de los océanos. De esta manera, se busca establecer una metodología de diagnóstico escalable y replicable para evaluar la presencia de polímeros sintéticos en cuerpos de agua lénticos y lóticos, contribuyendo a la generación de una base científica para la conservación del patrimonio hídrico del Perú (10).
 
 ---
 
 ## ⚠️ Problemática 
 ### Problemática a Nivel Mundial
 <p align="justify">
-La crisis de los microplásticos está impulsada principalmente por polímeros de alta producción como el polipropileno (PP) y el polietileno tereftalato (PET). El polipropileno representa aproximadamente el 21 % de la producción total de plásticos no fibrosos, siendo ampliamente utilizado en envases, empaques y materiales industriales, lo que incrementa su liberación al ambiente tras su disposición final inadecuada (9). Por su parte, el PET constituye un material fundamental en la industria de bebidas y textiles sintéticos, donde domina la producción de fibras artificiales utilizadas globalmente (9,10).
+La crisis de los microplásticos está impulsada principalmente por polímeros de alta producción como el polipropileno (PP) y el polietileno tereftalato (PET). El polipropileno representa aproximadamente el 21 % de la producción total de plásticos no fibrosos, siendo ampliamente utilizado en envases, empaques y materiales industriales, lo que incrementa su liberación al ambiente tras su disposición final inadecuada (11). Por su parte, el PET constituye un material fundamental en la industria de bebidas y textiles sintéticos, donde domina la producción de fibras artificiales utilizadas globalmente (11,12).
 </p>
 
 #### Impactos y comportamiento:
 * Persistencia diferencial: El PET tiende a degradarse más lentamente que otros polímeros como el polietileno, lo que prolonga su presencia en el entorno(10,11).
-* Comportamiento en el agua: El PP posee una densidad aproximada de 0.94 g/mL, característica que le permite flotar y dispersarse ampliamente en la superficie marina. En contraste, el PET presenta mayor densidad, favoreciendo su sedimentación y acumulación en fondos acuáticos (10,11).
-* Presencia en humanos: Diversas investigaciones han evidenciado la presencia de microplásticos en muestras biológicas humanas. Partículas de PP han sido detectadas en placenta y heces humanas, mientras que el PET constituye uno de los polímeros más frecuentemente identificados en sangre y muestras fecales, evidenciando su ingreso a la cadena alimentaria y posible impacto en la salud humana (10,12).
+* Comportamiento en el agua: El PP posee una densidad aproximada de 0.94 g/mL, característica que le permite flotar y dispersarse ampliamente en la superficie marina. En contraste, el PET presenta mayor densidad, favoreciendo su sedimentación y acumulación en fondos acuáticos (12,13).
+* Presencia en humanos: Diversas investigaciones han evidenciado la presencia de microplásticos en muestras biológicas humanas. Partículas de PP han sido detectadas en placenta y heces humanas, mientras que el PET constituye uno de los polímeros más frecuentemente identificados en sangre y muestras fecales, evidenciando su ingreso a la cadena alimentaria y posible impacto en la salud humana (12,13).
 
 ### Problemática a Nivel Local
 <p align="justify">
-En Lima y el Callao, el PP y el PET representan contaminantes prioritarios debido al elevado consumo de productos descartables y a deficiencias en la gestión integral de residuos sólidos. Se estima que cerca del 40 % de los residuos generados en el país no recibe una disposición adecuada, terminando en ríos, playas y ecosistemas marinos donde se fragmentan progresivamente en microplásticos (14).
+En Lima y el Callao, el PP y el PET representan contaminantes prioritarios debido al elevado consumo de productos descartables y a deficiencias en la gestión integral de residuos sólidos. Se estima que cerca del 40 % de los residuos generados en el país no recibe una disposición adecuada, terminando en ríos, playas y ecosistemas marinos donde se fragmentan progresivamente en microplásticos (16).
 </p>
 
 #### Hallazgos específicos en Lima:
-* Contaminación en playas: Estudios realizados en playas arenosas del litoral peruano han confirmado la presencia de microplásticos mediante análisis espectroscópicos, identificándose partículas de polipropileno asociadas a residuos marinos transportados por corrientes costeras y acumulación de basura oceánica (15).
-* Riesgo en recursos pesqueros: Investigaciones recientes en especies comerciales capturadas en terminales pesqueros de Lima y Callao reportaron la presencia de microplásticos en el 100 % de algunas especies analizadas, evidenciando la transferencia de estas partículas dentro de la red trófica marina y su potencial riesgo para el consumo humano(14). El uso de PP en artes de pesca y la degradación de botellas de PET constituyen fuentes directas de contaminación en el ecosistema marino local (10,14).
+* Contaminación en playas: Estudios realizados en playas arenosas del litoral peruano han confirmado la presencia de microplásticos mediante análisis espectroscópicos, identificándose partículas de polipropileno asociadas a residuos marinos transportados por corrientes costeras y acumulación de basura oceánica (17).
+* Riesgo en recursos pesqueros: Investigaciones recientes en especies comerciales capturadas en terminales pesqueros de Lima y Callao reportaron la presencia de microplásticos en el 100 % de algunas especies analizadas, evidenciando la transferencia de estas partículas dentro de la red trófica marina y su potencial riesgo para el consumo humano(16). El uso de PP en artes de pesca y la degradación de botellas de PET constituyen fuentes directas de contaminación en el ecosistema marino local (12,16).
 
 ## 💡 Presentación de la solución 
 <p align="justify">
@@ -129,16 +142,25 @@ El aparato está compuesto por un cabezal de succión que aspira los microplást
 ---
 
 ## 📖 Referencias bibliográficas 
-
-9. Geyer R, Jambeck JR, Law KL. Production, use, and fate of all plastics ever made. Sci Adv. 2017;3(7):e1700782. doi:10.1126/sciadv.1700782
-10. Osman AI, Hosny M, Eltaweil AS, Omar S, Elgarahy AM, Farghali M, et al. Microplastic sources, formation, toxicity and remediation: a review. Environ Chem Lett. 2023;21:2129-2169. doi:10.1007/s10311-023-01593-3.
-11. Rios Mendoza LM, Balcer M. Microplastics in freshwater environments: A review of quantification assessment. Trends Analyt Chem. 2019;113:402-408.
-12. Hu B, Dai Y, Zhou H, Sun Y, Yu H, Dai Y, et al. Using artificial intelligence to rapidly identify microplastics pollution and predict microplastics environmental behaviors. J Hazard Mater. 2024;474:134865.
-13. Tian X, Beén F, Bäuerlein PS. Quantum cascade laser imaging (LDIR) and machine learning for the identification of environmentally exposed microplastics and polymers. Environ Res. 2022;212:113569. doi:10.1016/j.envres.2022.113569
-14. Ministerio del Ambiente (MINAM). Plásticos. Lima: Red Peruana Ciclo de Vida y Ecología Industrial (PELCAN); 2026.
-15. Purca S, Henostroza A. Presencia de microplásticos en cuatro playas arenosas de Perú. Rev Peru Biol. 2017;24(1):101-106. doi:10.15381/rpb.v24i1.12724
-16. Flores K, Seminario M, Canchari F, Alvariño L, Miñaya D, Castañeda L, et al. Contaminación por microplásticos en tres peces marinos del Perú. Rev Inv Vet Perú. 2026;37(1):e32888. doi:10.15381/rivep.v37i1.32888
-17. Schneider CA, Rasband WS, Eliceiri KW. NIH Image to ImageJ: 25 years of image analysis. Nat Methods. 2012 Jul;9(7):671–5. doi:10.1038/nmeth.2089.
+1.  Microplastics and human health. Wasser 3.0 [Internet]. 27 de julio de 2024 [citado 13 de abril de 2026]. Disponible en: https://wasserdreinull.de/en/blog/microplastics-and-human-health/?gad_source=1&gad_campaignid=22865333246&gbraid=0AAAAACT5X8xvzl5Wi7eAK0TEi-fi_-tUd&gclid=Cj0KCQjwqPLOBhCiARIsAKRMPZobmEIyfv4nfzCEhA3rrNn0mbGo0qEwoisLFwGIHgsIuUYYljt4h-caAhx1EALw_wcB 
+2.  Snehamayee N, Somya S, Kumar SC, Niranjan M, Ranjan SB, Kumar MN. Microplastics and Human Health: A Comprehensive Review on Exposure Pathways, Toxicity, and Emerging Risks. Microplastics. marzo de 2026;5(1):8. doi:10.3390/microplastics5010008.
+3. Lombardi G, Di Russo M, Zjalic D, Lanza T, Simmons M, Moscato U, et al. Microplastics inhalation and their effects on human health: a systematic review. Eur J Public Health. 25 de octubre de 2022;32(Suppl 3):ckac131.152. doi:10.1093/eurpub/ckac131.152 PubMed PMID: null; PubMed Central PMCID: PMC9835049. 
+4. Luo Q, Tan H, Ye M, Jho EH, Wang P, Iqbal B, et al. Microplastics as an emerging threat to human health: An overview of potential health impacts. J Environ Manage. 1 de julio de 2025;387:125915. doi:10.1016/j.jenvman.2025.125915.
+5. Micro- and mesoplastic pollution along the coast of Peru | Request PDF. ResearchGate. 23 de enero de 2026. doi:10.1007/s11356-023-27707-6.
+6. Emenike EC, Okorie CJ, Ojeyemi T, Egbemhenghe A, Iwuozor KO, Saliu OD, et al. From oceans to dinner plates: The impact of microplastics on human health. Heliyon. 1 de octubre de 2023;9(10):e20440. doi:10.1016/j.heliyon.2023.e20440.
+7. Thin ZS, Chew J, Ong TYY, Raja Ali RA, Gew LT. Impact of microplastics on the human gut microbiome: a systematic review of microbial composition, diversity, and metabolic disruptions. BMC Gastroenterol. 13 de agosto de 2025;25(1):583. doi:10.1186/s12876-025-04140-2 PubMed PMID: 40804621; PubMed Central PMCID: PMC12351775. 
+8. Ririe AK, Fatema N, Dina TJ, Devi Kuchipudi J, Tamanna P, Libriansyah L, et al. Impact of Microplastic Exposure on Human Health: A Systematic Review of Mechanisms, Biomarkers, and Clinical Outcomes. Cureus. 28 de diciembre de 2025. doi:10.7759/cureus.100295.
+9. Luque Fernández CR. Contaminación por microplásticos en playas arenosas de Islay, departamento de Arequipa [Internet]. 17 de enero de 2020 [citado 1 de abril de 2026]. Disponible en: https://repositorio.ucsm.edu.pe/handle/20.500.12920/9869. 
+10. Gimiliani GT. Caracterização de microplásticos em amostras marinhas e estuarinas [tesis doctoral]. São Paulo: Instituto de Pesquisas Energéticas e Nucleares, Universidade de São Paulo; 2021. Disponible en: https://www.teses.usp.br/teses/disponiveis/85/85134/tde-22102021-104234/pt-br.php.
+11. Geyer R, Jambeck JR, Law KL. Production, use, and fate of all plastics ever made. Sci Adv. 2017;3(7):e1700782. doi:10.1126/sciadv.1700782
+12. Osman AI, Hosny M, Eltaweil AS, Omar S, Elgarahy AM, Farghali M, et al. Microplastic sources, formation, toxicity and remediation: a review. Environ Chem Lett. 2023;21:2129-2169. doi:10.1007/s10311-023-01593-3.
+13. Rios Mendoza LM, Balcer M. Microplastics in freshwater environments: A review of quantification assessment. Trends Analyt Chem. 2019;113:402-408.
+14. Hu B, Dai Y, Zhou H, Sun Y, Yu H, Dai Y, et al. Using artificial intelligence to rapidly identify microplastics pollution and predict microplastics environmental behaviors. J Hazard Mater. 2024;474:134865.
+15. Tian X, Beén F, Bäuerlein PS. Quantum cascade laser imaging (LDIR) and machine learning for the identification of environmentally exposed microplastics and polymers. Environ Res. 2022;212:113569. doi:10.1016/j.envres.2022.113569
+16. Ministerio del Ambiente (MINAM). Plásticos. Lima: Red Peruana Ciclo de Vida y Ecología Industrial (PELCAN); 2026.
+17. Purca S, Henostroza A. Presencia de microplásticos en cuatro playas arenosas de Perú. Rev Peru Biol. 2017;24(1):101-106. doi:10.15381/rpb.v24i1.12724
+18. Flores K, Seminario M, Canchari F, Alvariño L, Miñaya D, Castañeda L, et al. Contaminación por microplásticos en tres peces marinos del Perú. Rev Inv Vet Perú. 2026;37(1):e32888. doi:10.15381/rivep.v37i1.32888
+19. Schneider CA, Rasband WS, Eliceiri KW. NIH Image to ImageJ: 25 years of image analysis. Nat Methods. 2012 Jul;9(7):671–5. doi:10.1038/nmeth.2089.
 
 ---
 
