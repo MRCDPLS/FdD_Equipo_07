@@ -18,7 +18,7 @@ El equipo 07 desarrollará un disposito de detección automatizada de microplás
 </p>
 
 <p align="justify">
-El objetivo principal de este proyecto es reducir reducir la presencia de microplásticos en entornos acuáticos, contribuyendo al cumplimiento de los ODS 6 (Agua limpia y saneamiento), 7 (Energía asequible y no contaminante) y 14 (Vida submarina).
+El objetivo principal de este proyecto es reducir reducir la presencia de microplásticos en entornos acuáticos, contribuyendo al cumplimiento de los ODS 6 (Agua limpia y saneamiento) y 14 (Vida submarina).
 </p>
 
 ---
@@ -62,11 +62,11 @@ En Lima y el Callao, el PP y el PET representan contaminantes prioritarios debid
 
 ## 💡 Presentación de la solución 
 <p align="justify">
-El presente proyecto propone el desarrollo de un <strong>sistema inteligente para la detección y clasificación de microplástico como el polipropileno (PP) y el polietileno tereftalato (PET)</strong> en cuerpos de agua, como lagunas y playas de Lima, donde la contaminación por residuos plásticos representa una amenaza creciente para los ecosistemas y la salud humana.
+El presente proyecto propone el desarrollo de un <strong>dispositivo inteligente portátil diseñado para detectar y clasificar de microplásticos como el polipropileno (PP) y el polietileno tereftalato (PET)</strong> en cuerpos de agua, como humedales y playas de Lima y Callao, donde la contaminación por residuos plásticos representa una amenaza creciente para los ecosistemas y la salud humana.
 </p>
 
 <p align="justify">
-La solución se basa en la recolección de muestras de agua y sedimentos, seguida de su análisis mediante visión artificial y procesamiento de imágenes, lo que permite identificar y caracterizar partículas plásticas presentes en el entorno.
+La solución integra sensores ópticos, captura y procesamiento de imágenes y análisis automatizado usando modelos de IA, de muestras de agua y sedimentos. Este sistema incorpora algoritmos de machine learning y la inteligencia artificial actúa como núcleo del sistema, optimizando continuamente la detección a medida que procesa nuevas muestras. Todo ello se traduce en una herramienta portable y escalable, permitiendo realizar monitoreo ambiental directamente en campo sin necesidad de laboratorio especializado.
 </p>
 
 <p align="justify">
