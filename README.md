@@ -14,7 +14,13 @@ Nuestro objetivo es diseñar e implementar una solución tecnológica basada en 
 
 ## 📌 Descripción del Proyecto
 <p align="justify">
-El equipo 07 desarrollará un disposito de detección automatizada de microplásticos (como PP y PET) en playas y humedales de Lima y Callao. La solución integra técnicas de procesamiento de imágenes, visión computacional e inteligencia artificial, utilizando hardware como el ESP32-CAM, para su aplicación en entornos marinos con apoyo de la IA para diferenciarse de la competencia. La solución busca mejorar la identificación temprana de contaminantes y aportar a la mitigación de su impacto ambiental.
+El Equipo 07 desarrolla un dispositivo portátil de detección automatizada de microplásticos, enfocado en la identificación de polímeros como PP (polipropileno) y PET (polietileno tereftalato) en playas y humedales de Lima y Callao.
+
+La solución integra técnicas de procesamiento digital de imágenes, visión computacional e inteligencia artificial, empleando hardware embebido basado en ESP32-CAM para su funcionamiento en entornos marino-costeros. El sistema captura imágenes de muestras ambientales y aplica modelos de IA para detectar y clasificar microplásticos directamente en campo, permitiendo diferenciar contaminantes de forma automática y eficiente.
+
+El objetivo principal del proyecto es lograr la identificación temprana de microplásticos mediante un sistema autónomo capaz de procesar datos sin depender de infraestructura externa ni análisis de laboratorio especializados. Esto permite implementar un monitoreo ambiental continuo, oportuno y adaptado a condiciones reales, reduciendo tiempos, costos operativos y barreras tecnológicas existentes en los métodos tradicionales.
+
+A través de esta propuesta tecnológica, el proyecto busca contribuir a la mitigación del impacto ambiental generado por la contaminación plástica en ecosistemas acuáticos, alineándose con los Objetivos de Desarrollo Sostenible, ODS 6 y ODS 14. 
 </p>
 
 <p align="justify">
