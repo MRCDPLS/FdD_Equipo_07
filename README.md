@@ -61,9 +61,20 @@ La crisis de los microplásticos está impulsada principalmente por polímeros d
 </p>
 
 #### Impactos y comportamiento:
-* Persistencia diferencial: El PET tiende a degradarse más lentamente que otros polímeros como el polietileno, lo que prolonga su presencia en el entorno(10,11).
-* Comportamiento en el agua: El PP posee una densidad aproximada de 0.94 g/mL, característica que le permite flotar y dispersarse ampliamente en la superficie marina. En contraste, el PET presenta mayor densidad, favoreciendo su sedimentación y acumulación en fondos acuáticos (12,13).
-* Presencia en humanos: Diversas investigaciones han evidenciado la presencia de microplásticos en muestras biológicas humanas. Partículas de PP han sido detectadas en placenta y heces humanas, mientras que el PET constituye uno de los polímeros más frecuentemente identificados en sangre y muestras fecales, evidenciando su ingreso a la cadena alimentaria y posible impacto en la salud humana (12,13).
+* Persistencia diferencial:
+  <p align="justify">
+  El PET tiende a degradarse más lentamente que otros polímeros como el polietileno, lo que prolonga su presencia en el entorno (10,11).
+  </p>
+
+* Comportamiento en el agua: 
+  <p align="justify">
+  El PP posee una densidad aproximada de 0.94 g/mL, característica que le permite flotar y dispersarse ampliamente en la superficie marina. En contraste, el PET presenta mayor densidad, favoreciendo su sedimentación y acumulación en fondos acuáticos (12,13).
+  </p>
+
+* Presencia en humanos: 
+  <p align="justify">
+  Diversas investigaciones han evidenciado la presencia de microplásticos en muestras biológicas humanas. Partículas de PP han sido detectadas en placenta y heces humanas, mientras que el PET constituye uno de los polímeros más frecuentemente identificados en sangre y muestras fecales, evidenciando su ingreso a la cadena alimentaria y posible impacto en la salud humana (12,13).
+  </p>
 
 ### Problemática a Nivel Local
 <p align="justify">
@@ -71,8 +82,15 @@ En Lima y el Callao, el PP y el PET representan contaminantes prioritarios debid
 </p>
 
 #### Hallazgos específicos en Lima:
-* Contaminación en playas: Estudios realizados en playas arenosas del litoral peruano han confirmado la presencia de microplásticos mediante análisis espectroscópicos, identificándose partículas de polipropileno asociadas a residuos marinos transportados por corrientes costeras y acumulación de basura oceánica (17).
-* Riesgo en recursos pesqueros: Investigaciones recientes en especies comerciales capturadas en terminales pesqueros de Lima y Callao reportaron la presencia de microplásticos en el 100 % de algunas especies analizadas, evidenciando la transferencia de estas partículas dentro de la red trófica marina y su potencial riesgo para el consumo humano(16). El uso de PP en artes de pesca y la degradación de botellas de PET constituyen fuentes directas de contaminación en el ecosistema marino local (12,16,18).
+* Contaminación en playas: 
+  <p align="justify">
+  Estudios realizados en playas arenosas del litoral peruano han confirmado la presencia de microplásticos mediante análisis espectroscópicos, identificándose partículas de polipropileno asociadas a residuos marinos transportados por corrientes costeras y acumulación de basura oceánica (17).
+  </p>
+
+* Riesgo en recursos pesqueros: 
+  <p align="justify">
+  Investigaciones recientes en especies comerciales capturadas en terminales pesqueros de Lima y Callao reportaron la presencia de microplásticos en el 100 % de algunas especies analizadas, evidenciando la transferencia de estas partículas dentro de la red trófica marina y su potencial riesgo para el consumo humano(16). El uso de PP en artes de pesca y la degradación de botellas de PET constituyen fuentes directas de contaminación en el ecosistema marino local (12,16,18).
+  </p>
 
 --- 
 
@@ -121,27 +139,16 @@ Nuestro proyecto se relaciona con los siguientes <strong>Objetivos de Desarrollo
 </p>
 
 - 🐠 **ODS 14 : VIDA SUBMARINA**  
+  <p align="justify">
   La contaminación por plásticos y microplásticos representa una amenaza importante para los ecosistemas marinos. Estas partículas pueden permanecer durante muchos años en el agua y afectar a la fauna marina. Se estima que entre 19 y 23 millones de toneladas de residuos plásticos ingresaron a los sistemas acuáticos en el 2016, y se prevé que esta cifra podría alcanzar hasta 53 millones de toneladas anuales para 2030. Esta problemática afecta directamente a la vida submarina, ya que los organismos marinos pueden ingerir microplásticos, lo que altera los ecosistemas y la biodiversidad.
+  </p>
 
 ---
 
 - 💧 **ODS 6: AGUA LIMPIA Y SANEAMIENTO**  
+  <p align="justify">
   Los microplásticos también afectan la calidad del agua potable y los sistemas de tratamiento de aguas residuales. Estas partículas pueden ingresar a las plantas de tratamiento a través del lavado de ropa sintética y productos que contienen plástico. Aunque los sistemas de tratamiento pueden eliminar una parte de estos contaminantes, la gran cantidad de microplásticos sigue representando un desafío para garantizar agua segura y saneamiento adecuado.
-
-
----
-
-EJEMPLO  DE INICIATIVA RELACIONADA CON LA REDUCCIÓN DE MICRO PLÁSTICOS  
-
-* El dispositivo creado por Zhang Dongqing y su equipo en 2021 ha transformado la detección de microplásticos en el océano al sustituir el lento proceso de recolección y análisis en laboratorio por un sistema de procesamiento directo que permite una separación eficiente y sencilla de las partículas contaminantes presentes en el agua de mar. Esta tecnología con forma de cilindro se instala verticalmente a través de un orificio roscado y utiliza un mecanismo avanzado de filtrado con presión positiva y negativa para aislar los microplásticos de manera inmediata a medida que el flujo de agua ingresa al sistema optimizando así las labores de monitoreo ambiental en tiempo real
-
-* El creador Niu Xiaojun y su equipo crearon un dispositivo de recolección de micro plásticos con diferentes diámetros en agua de mar, incluye varios discos de recolección con ranuras verticales deslizantes para aumentar su eficiencia, patento su dispositivo en el año 2022.
-El dispositivo de recolección incluye una caja de recolección, un componente de recolección, una caja de almacenamiento primaria, un cuerpo móvil subacuático y una fuente de alimentación para el dispositivo.
-
-* Se presenta un dispositivo portátil diseñado para recolectar microplásticos mezclados con arena en playas.
-El aparato está compuesto por un cabezal de succión que aspira los microplásticos, un conducto por donde estos son transportados y un bastidor principal que contiene una bolsa de recolección. El sistema incluye un cepillo electrostático que atrae los microplásticos mediante electricidad estática, permitiendo su separación eficiente de la arena. Finalmente, los microplásticos separados son transportados a través del conducto y almacenados en una bolsa de recolección, facilitando su manejo y eliminación.
-
-* Una patente llamada "Dispositivo de recolección de muestras de microplásticos aplicado a costas marinas y playas" describe un sistema denominado Ocean Cleanup Autonomous System (OCAS), diseñado para la recolección, clasificación y transporte de residuos marinos mediante una red de embarcaciones autónomas interconectadas complementado con combustible. Asimismo, incorpora el uso de energías renovables (solar, eólica, undimotriz) y usa principios físicos de la electrostática y densidad.
+  </p>
 
 ---
 
