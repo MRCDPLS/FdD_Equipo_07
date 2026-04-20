@@ -70,23 +70,16 @@ La solución integra sensores ópticos, captura y procesamiento de imágenes y a
 </p>
 
 <p align="justify">
-La arquitectura del sistema está compuesto por tres módulos principales:
+La arquitectura del sistema está compuesto por dos módulos principales:
 </p>
 
-### 🔹 Módulo 1: Recolección y filtrado  
-- Captación de muestras de agua mediante un sistema manual o con bomba.
-- Filtrado por mallas de diferentes tamaños.
-- Separación de:
-    - Macroplásticos (> 5 mm).
-    - Microplásticos.  
-
-### 🔹 Módulo 2: Registro y análisis 
+### 🔹 Módulo 1: Registro y análisis 
 - Integración de hardware (ej. ESP32-CAM).  
 - Procesamiento con ImageJ: (19)
     - Identificación de partículas.
     - Medición de tamaño.
 
-### 🔹 Módulo 3: Clasificación y registro inteligente  
+### 🔹 Módulo 2: Clasificación y registro inteligente  
 - Uso de modelos de inteligencia artificial para clasificar polímeros:
     - PET (botellas).
     - PP (envases, tapas). 
