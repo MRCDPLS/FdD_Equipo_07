@@ -24,19 +24,33 @@ El objetivo principal de este proyecto es la identificación temprana de contami
 ---
 
 ## 🔍 Introducción
+<p align="justify">
 En las últimas décadas, la producción y el uso masivo de plásticos han generado un incremento significativo de residuos sólidos en el ambiente, lo que ha ocasionado la acumulación de partículas plásticas en diversos ecosistemas a nivel mundial. Estas partículas, conocidas como microplásticos, se originan principalmente por la fragmentación de materiales plásticos de mayor tamaño y se han convertido en un contaminante emergente de gran preocupación ambiental y sanitaria (1,2).
+</p>
 
+<p align="justify">
 Los microplásticos se definen como partículas plásticas con un tamaño menor a 5 mm y pueden encontrarse en una amplia variedad de entornos, incluyendo océanos, ríos, suelos y el aire. Debido a su pequeño tamaño y resistencia a la degradación, estas partículas permanecen en el ambiente durante largos periodos y pueden transportarse a través de diferentes medios naturales, lo que favorece su dispersión en ecosistemas acuáticos y terrestres (3,4). 
+</p>
 
+<p align="justify">
 En el Perú, la gestión inadecuada de residuos sólidos y el manejo deficiente de los desechos costeros han favorecido la presencia de plásticos en ambientes marinos. Investigaciones científicas realizadas en la costa peruana han evidenciado la presencia de microplásticos en diferentes zonas, demostrando que estos contaminantes se distribuyen ampliamente y se generan a partir de la degradación continua de residuos plásticos en el ambiente (5).
+</p>
 
+<p align="justify">
 Además de su presencia en el ambiente, los microplásticos también han sido detectados en organismos vivos, incluyendo especies marinas y seres humanos. Estudios científicos han demostrado que estas partículas pueden ingresar al cuerpo humano mediante la ingestión de alimentos contaminados o la inhalación de aire con partículas suspendidas, lo que ha generado preocupación sobre sus posibles efectos en la salud humana (6,7).
+</p>
 
+<p align="justify">
 Diversas investigaciones han señalado que la exposición a microplásticos puede provocar efectos adversos en la salud, tales como inflamación, estrés oxidativo y alteraciones en tejidos y órganos. Asimismo, estos contaminantes representan una amenaza significativa para los ecosistemas, ya que afectan a organismos acuáticos y pueden alterar las cadenas alimentarias y la biodiversidad (2,8).
+</p>
 
-En este contexto, el presente proyecto tiene como objetivo determinar la presencia de microplásticos (MPs) en lagunas y playas de Lima, mediante la implementación de una metodología para su análisis e identificación, enfocándose en polímeros sintéticos de uso común como el polipropileno (PP) y el polietileno tereftalato (PET). Este tipo de estudios resulta fundamental para comprender la magnitud de la contaminación por microplásticos y contribuir al desarrollo de estrategias para la protección de los recursos hídricos y la salud ambiental(9).
+<p align="justify">
+En este contexto, el presente proyecto tiene como objetivo determinar la presencia de microplásticos (MPs) en lagunas y playas de Lima, mediante la implementación de una metodología para su análisis e identificación, enfocándose en polímeros sintéticos de uso común como el polipropileno (PP) y el polietileno tereftalato (PET). Este tipo de estudios resulta fundamental para comprender la magnitud de la contaminación por microplásticos y contribuir al desarrollo de estrategias para la protección de los recursos hídricos y la salud ambiental (9).
+</p>
 
+<p align="justify">
 Ante este escenario, resulta necesario implementar estrategias que permitan mitigar la acumulación de microplásticos en sedimentos y cuerpos de agua. En este sentido, la presente propuesta se enmarca en los Objetivos de Desarrollo Sostenible (ODS), específicamente en el ODS 6, orientado a la protección de la calidad del agua y la salud de los ecosistemas acuáticos, y en el ODS 14, enfocado en la reducción de la contaminación de origen terrestre que afecta la biodiversidad marina y la sostenibilidad de los océanos. De esta manera, se busca establecer una metodología de diagnóstico escalable y replicable para evaluar la presencia de polímeros sintéticos en cuerpos de agua lénticos y lóticos, contribuyendo a la generación de una base científica para la conservación del patrimonio hídrico del Perú (10).
+</p>
 
 ---
 
