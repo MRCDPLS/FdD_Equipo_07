@@ -14,7 +14,7 @@ Nuestro objetivo es diseñar e implementar una solución tecnológica basada en 
 
 ## 📌 Descripción del Proyecto
 <p align="justify">
-El equipo 07 desarrollará un disposito de detección automatizada de microplásticos (como PP y PET) en playas y humedales de Lima y Callao. La solución integra técnicas de procesamiento de imágenes, visión computacional e inteligencia artificial, utilizando hardware como el ESP32-CAM, para su aplicación en entornos marinos con apoyo de la IA para diferenciarse de la competencia. La solución busca mejorar la identificación temprana de contaminantes y aportar a la mitigación de su impacto ambiental.
+El equipo 07 desarrollará un disposito de detección automatizada de microplásticos (como PP y PET) en playas y humedales de Lima y Callao. La solución integra técnicas de procesamiento de imágenes, visión computacional e inteligencia artificial, utilizando hardware como el ESP32-CAM, lo que permite su aplicación en entornos marinos de manera eficiente y accesible.
 </p>
 
 <p align="justify">
@@ -55,7 +55,7 @@ Ante este escenario, resulta necesario implementar estrategias que permitan miti
 ---
 
 ## ⚠️ Problemática 
-### Problemática a Nivel Mundial
+### Problemática a Nivel mundial
 <p align="justify">
 La crisis de los microplásticos está impulsada principalmente por polímeros de alta producción como el polipropileno (PP) y el polietileno tereftalato (PET). El polipropileno representa aproximadamente el 21 % de la producción total de plásticos no fibrosos, siendo ampliamente utilizado en envases, empaques y materiales industriales, lo que incrementa su liberación al ambiente tras su disposición final inadecuada (11). Por su parte, el PET constituye un material fundamental en la industria de bebidas y textiles sintéticos, donde domina la producción de fibras artificiales utilizadas globalmente (11,12).
 </p>
@@ -76,7 +76,7 @@ La crisis de los microplásticos está impulsada principalmente por polímeros d
   Diversas investigaciones han evidenciado la presencia de microplásticos en muestras biológicas humanas. Partículas de PP han sido detectadas en placenta y heces humanas, mientras que el PET constituye uno de los polímeros más frecuentemente identificados en sangre y muestras fecales, evidenciando su ingreso a la cadena alimentaria y posible impacto en la salud humana (12,13).
   </p>
 
-### Problemática a Nivel Local
+### Problemática a Nivel local
 <p align="justify">
 En Lima y el Callao, el PP y el PET representan contaminantes prioritarios debido al elevado consumo de productos descartables y a deficiencias en la gestión integral de residuos sólidos. Se estima que cerca del 40 % de los residuos generados en el país no recibe una disposición adecuada, terminando en ríos, playas y ecosistemas marinos donde se fragmentan progresivamente en microplásticos (16).
 </p>
