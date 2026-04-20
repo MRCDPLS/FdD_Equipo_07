@@ -104,26 +104,6 @@ La solución integra sensores ópticos, captura y procesamiento de imágenes y a
 </p>
 
 <p align="justify">
-La arquitectura del sistema está compuesto por dos módulos principales:
-</p>
-
-### 🔹 Módulo 1: Registro y análisis 
-- Integración de hardware (ej. ESP32-CAM).  
-- Procesamiento con ImageJ: (19)
-    - Identificación de partículas.
-    - Medición de tamaño.
-
-### 🔹 Módulo 2: Clasificación y registro inteligente  
-- Uso de modelos de inteligencia artificial para clasificar polímeros:
-    - PET (botellas).
-    - PP (envases, tapas). 
-- Registro de datos:
-    - Cantidad de particulas.  
-    - Tipo de plástico predominante.
-    - Ubicación y tiempo de muestreo. 
-- Visualización en una interfaz digital (app o dashboard).
-
-<p align="justify">
 Bajo el enfoque de ingeniería, el proyecto integra principalmente <strong>procesamiento de imágenes, machine learning, electrónica con sensores y microcontroladores</strong>. Esto permite transformar un proceso tradicionalmente manual en un sistema automatizado, escalable y replicable.
 </p>
 
