@@ -62,7 +62,7 @@ En Lima y el Callao, el PP y el PET representan contaminantes prioritarios debid
 
 ## 💡 Presentación de la solución 
 <p align="justify">
-El presente proyecto propone el desarrollo de un <strong>dispositivo inteligente portátil diseñado para detectar y clasificar de microplásticos como el polipropileno (PP) y el polietileno tereftalato (PET)</strong> en cuerpos de agua, como humedales y playas de Lima y Callao, donde la contaminación por residuos plásticos representa una amenaza creciente para los ecosistemas y la salud humana.
+El presente proyecto propone el desarrollo de un <strong>dispositivo inteligente portátil diseñado para detectar y clasificar microplásticos como el polipropileno (PP) y el polietileno tereftalato (PET)</strong> en cuerpos de agua, como humedales y playas de Lima y Callao, donde la contaminación por residuos plásticos representa una amenaza creciente para los ecosistemas y la salud humana.
 </p>
 
 <p align="justify">
