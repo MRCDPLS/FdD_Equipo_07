@@ -94,6 +94,9 @@ En Lima y el Callao, el PP y el PET representan contaminantes prioritarios debid
   Investigaciones recientes en especies comerciales capturadas en terminales pesqueros de Lima y Callao reportaron la presencia de microplásticos en el 100 % de algunas especies analizadas, evidenciando la transferencia de estas partículas dentro de la red trófica marina y su potencial riesgo para el consumo humano(16). El uso de PP en artes de pesca y la degradación de botellas de PET constituyen fuentes directas de contaminación en el ecosistema marino local (12,16,18).
   </p>
 
+<p align="center">
+  <img src="C:\Users\LENOVO\Desktop\FdD_Equipo_07\Recursos\Imágenes" width="500">
+</p>
 --- 
 
 ## 💡 Presentación de la solución 
