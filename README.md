@@ -106,11 +106,6 @@ Nuestro proyecto se relaciona con los siguientes <strong>Objetivos de Desarrollo
 - 💧 **ODS 6: AGUA LIMPIA Y SANEAMIENTO**  
   Los microplásticos también afectan la calidad del agua potable y los sistemas de tratamiento de aguas residuales. Estas partículas pueden ingresar a las plantas de tratamiento a través del lavado de ropa sintética y productos que contienen plástico. Aunque los sistemas de tratamiento pueden eliminar una parte de estos contaminantes, la gran cantidad de microplásticos sigue representando un desafío para garantizar agua segura y saneamiento adecuado.
 
----
-
-- ⚡ **ODS 7: ENERGÍA ASEQUIBLE Y NO CONTAMINANTE**  
-  Una de las formas de gestionar los residuos plásticos es la incineración para generar energía. Sin embargo, este proceso puede liberar gases de efecto invernadero que contribuyen al cambio climático. Estudios han estimado que las emisiones de gases de efecto invernadero provenientes de los plásticos podrían alcanzar 1.34 gigatoneladas por año para 2030, lo que evidencia la necesidad de soluciones sostenibles que reduzcan la contaminación y promuevan el uso responsable de los recursos energéticos. 
-📊 Fuente: ScienceDirect(2021)
 
 ---
 
