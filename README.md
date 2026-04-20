@@ -14,21 +14,13 @@ Nuestro objetivo es diseñar e implementar una solución tecnológica basada en 
 
 ## 📌 Descripción del Proyecto
 <p align="justify">
-<<<<<<< HEAD
 El Equipo 07 desarrolla un dispositivo portátil de detección automatizada de microplásticos, enfocado en la identificación de polímeros como PP (polipropileno) y PET (polietileno tereftalato) en playas y humedales de Lima y Callao.
 
 La solución integra técnicas de procesamiento digital de imágenes, visión computacional e inteligencia artificial, empleando hardware embebido basado en ESP32-CAM para su funcionamiento en entornos marino-costeros. El sistema captura imágenes de muestras ambientales y aplica modelos de IA para detectar y clasificar microplásticos directamente en campo, permitiendo diferenciar contaminantes de forma automática y eficiente.
 
 El objetivo principal del proyecto es lograr la identificación temprana de microplásticos mediante un sistema autónomo capaz de procesar datos sin depender de infraestructura externa ni análisis de laboratorio especializados. Esto permite implementar un monitoreo ambiental continuo, oportuno y adaptado a condiciones reales, reduciendo tiempos, costos operativos y barreras tecnológicas existentes en los métodos tradicionales.
 
-A través de esta propuesta tecnológica, el proyecto busca contribuir a la mitigación del impacto ambiental generado por la contaminación plástica en ecosistemas acuáticos, alineándose con los Objetivos de Desarrollo Sostenible, ODS 6 y ODS 14. 
-=======
-El equipo 07 desarrollará un disposito de detección automatizada de microplásticos (como PP y PET) en playas y humedales de Lima y Callao. La solución integra técnicas de procesamiento de imágenes, visión computacional e inteligencia artificial, utilizando hardware como el ESP32-CAM, lo que permite su aplicación en entornos marinos de manera eficiente y accesible.
->>>>>>> 03459abf302b6ed1d9a75b2350de22d2d13770a3
-</p>
-
-<p align="justify">
-El objetivo principal de este proyecto es la identificación temprana de contaminantes mediante el uso de IA capaz de procesar datos directamente en campo, sin depender de infraestructura externa ni análisis de laboratorio, lo que permite un monitoreo continuo, oportuno y adaptado a las condiciones reales del entorno. De esta manera, el proyecto contribuye a la reducción de la presencia de microplásticos en entornos acuáticos y aporta al cumplimiento de los ODS 6 (Agua limpia y saneamiento) y 14 (Vida submarina).
+A través de esta propuesta tecnológica, el proyecto busca contribuir a la mitigación del impacto ambiental generado por la contaminación plástica en ecosistemas acuáticos, alineándose con los Objetivos de Desarrollo Sostenible, ODS 6 y ODS 14.
 </p>
 
 ---
@@ -65,7 +57,7 @@ Ante este escenario, resulta necesario implementar estrategias que permitan miti
 ---
 
 ## ⚠️ Problemática 
-### Problemática a Nivel mundial
+### Problemática a Nivel Mundial
 <p align="justify">
 La crisis de los microplásticos está impulsada principalmente por polímeros de alta producción como el polipropileno (PP) y el polietileno tereftalato (PET). El polipropileno representa aproximadamente el 21 % de la producción total de plásticos no fibrosos, siendo ampliamente utilizado en envases, empaques y materiales industriales, lo que incrementa su liberación al ambiente tras su disposición final inadecuada (11). Por su parte, el PET constituye un material fundamental en la industria de bebidas y textiles sintéticos, donde domina la producción de fibras artificiales utilizadas globalmente (11,12).
 </p>
@@ -86,7 +78,7 @@ La crisis de los microplásticos está impulsada principalmente por polímeros d
   Diversas investigaciones han evidenciado la presencia de microplásticos en muestras biológicas humanas. Partículas de PP han sido detectadas en placenta y heces humanas, mientras que el PET constituye uno de los polímeros más frecuentemente identificados en sangre y muestras fecales, evidenciando su ingreso a la cadena alimentaria y posible impacto en la salud humana (12,13).
   </p>
 
-### Problemática a Nivel local
+### Problemática a Nivel Local
 <p align="justify">
 En Lima y el Callao, el PP y el PET representan contaminantes prioritarios debido al elevado consumo de productos descartables y a deficiencias en la gestión integral de residuos sólidos. Se estima que cerca del 40 % de los residuos generados en el país no recibe una disposición adecuada, terminando en ríos, playas y ecosistemas marinos donde se fragmentan progresivamente en microplásticos (16).
 </p>
@@ -112,6 +104,26 @@ El presente proyecto propone el desarrollo de un <strong>dispositivo inteligente
 <p align="justify">
 La solución integra sensores ópticos, captura y procesamiento de imágenes y análisis automatizado usando modelos de IA, de muestras de agua y sedimentos. Este sistema incorpora algoritmos de machine learning y la inteligencia artificial actúa como núcleo del sistema, optimizando continuamente la detección a medida que procesa nuevas muestras. Todo ello se traduce en una herramienta portable y escalable, permitiendo realizar monitoreo ambiental directamente en campo sin necesidad de laboratorio especializado.
 </p>
+
+<p align="justify">
+La arquitectura del sistema está compuesto por dos módulos principales:
+</p>
+
+### 🔹 Módulo 1: Registro y análisis 
+- Integración de hardware (ej. ESP32-CAM).  
+- Procesamiento con ImageJ: (19)
+    - Identificación de partículas.
+    - Medición de tamaño.
+
+### 🔹 Módulo 2: Clasificación y registro inteligente  
+- Uso de modelos de inteligencia artificial para clasificar polímeros:
+    - PET (botellas).
+    - PP (envases, tapas). 
+- Registro de datos:
+    - Cantidad de particulas.  
+    - Tipo de plástico predominante.
+    - Ubicación y tiempo de muestreo. 
+- Visualización en una interfaz digital (app o dashboard).
 
 <p align="justify">
 Bajo el enfoque de ingeniería, el proyecto integra principalmente <strong>procesamiento de imágenes, machine learning, electrónica con sensores y microcontroladores</strong>. Esto permite transformar un proceso tradicionalmente manual en un sistema automatizado, escalable y replicable.
