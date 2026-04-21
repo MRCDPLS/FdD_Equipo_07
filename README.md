@@ -20,7 +20,7 @@ La solución integra técnicas de procesamiento digital de imágenes, visión co
 
 El objetivo principal de Yaku-Ñawi es lograr la identificación temprana de microplásticos mediante un sistema autónomo capaz de procesar datos sin depender de infraestructura externa ni análisis de laboratorio especializados. Esto permite implementar un monitoreo ambiental continuo, oportuno y adaptado a condiciones reales, reduciendo tiempos, costos operativos y barreras tecnológicas existentes en los métodos tradicionales.
 
-A través de esta propuesta tecnológica, Yaku-ÑawiF busca contribuir a la mitigación del impacto ambiental generado por la contaminación plástica en ecosistemas acuáticos, alineándose con los Objetivos de Desarrollo Sostenible, ODS 6 y ODS 14.
+A través de esta propuesta tecnológica, Yaku-Ñawi busca contribuir a la mitigación del impacto ambiental generado por la contaminación plástica en ecosistemas acuáticos, alineándose con los Objetivos de Desarrollo Sostenible, ODS 6 y ODS 14.
 </p>
 
 ---
