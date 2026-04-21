@@ -14,13 +14,13 @@ Nuestro objetivo es diseñar e implementar una solución tecnológica basada en 
 
 ## 📌 Descripción del Proyecto
 <p align="justify">
-El Equipo 07 desarrolla un dispositivo portátil de detección automatizada de microplásticos, enfocado en la identificación de polímeros como PP (polipropileno) y PET (polietileno tereftalato) en playas y humedales de Lima y Callao.
+El Equipo 07 desarrolla un dispositivo portátil de detección automatizada de microplásticos llamado Yaku-Ñawi, enfocado en la identificación de polímeros como PP (polipropileno) y PET (polietileno tereftalato) en playas y humedales de Lima y Callao.
 
 La solución integra técnicas de procesamiento digital de imágenes, visión computacional e inteligencia artificial, empleando hardware embebido basado en ESP32-CAM para su funcionamiento en entornos marino-costeros. El sistema captura imágenes de muestras ambientales y aplica modelos de IA para detectar y clasificar microplásticos directamente en campo, permitiendo diferenciar contaminantes de forma automática y eficiente.
 
-El objetivo principal del proyecto es lograr la identificación temprana de microplásticos mediante un sistema autónomo capaz de procesar datos sin depender de infraestructura externa ni análisis de laboratorio especializados. Esto permite implementar un monitoreo ambiental continuo, oportuno y adaptado a condiciones reales, reduciendo tiempos, costos operativos y barreras tecnológicas existentes en los métodos tradicionales.
+El objetivo principal de Yaku-Ñawi es lograr la identificación temprana de microplásticos mediante un sistema autónomo capaz de procesar datos sin depender de infraestructura externa ni análisis de laboratorio especializados. Esto permite implementar un monitoreo ambiental continuo, oportuno y adaptado a condiciones reales, reduciendo tiempos, costos operativos y barreras tecnológicas existentes en los métodos tradicionales.
 
-A través de esta propuesta tecnológica, el proyecto busca contribuir a la mitigación del impacto ambiental generado por la contaminación plástica en ecosistemas acuáticos, alineándose con los Objetivos de Desarrollo Sostenible, ODS 6 y ODS 14.
+A través de esta propuesta tecnológica, Yaku-ÑawiF busca contribuir a la mitigación del impacto ambiental generado por la contaminación plástica en ecosistemas acuáticos, alineándose con los Objetivos de Desarrollo Sostenible, ODS 6 y ODS 14.
 </p>
 
 ---
@@ -125,7 +125,7 @@ La arquitectura del sistema está compuesto por dos módulos principales:
 - Visualización en una interfaz digital (app o dashboard).
 
 <p align="justify">
-Bajo el enfoque de ingeniería, el proyecto integra principalmente <strong>procesamiento de imágenes, machine learning, electrónica con sensores y microcontroladores</strong>. Esto permite transformar un proceso tradicionalmente manual en un sistema automatizado, escalable y replicable.
+Bajo el enfoque de ingeniería, Yaku-Ñawi integra principalmente <strong>procesamiento de imágenes, machine learning, electrónica con sensores y microcontroladores</strong>. Esto permite transformar un proceso tradicionalmente manual en un sistema automatizado, escalable y replicable.
 </p>
 
 <p align="justify">
