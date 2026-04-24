@@ -25,7 +25,7 @@ Cada año se han producido más de 8 300 millones de toneladas de plástico en e
 Estos microplásticos, especialmente PP y PET, ya se encuentran en el agua, en los peces que consumimos e incluso en el cuerpo humano.
 
 El problema es que detectarlos actualmente requiere laboratorios costosos y mucho tiempo, lo que dificulta monitorear constantemente nuestras playas y humedales.
-Ante esta problemática nos hicimos la siguiente pregunta:
+Ante esta problemática nos hicimos la siguiente pregunta:  
 **¿Cómo podemos detectar microplásticos directamente en el lugar donde ocurre la contaminación?**
 
 ---
@@ -50,7 +50,7 @@ Además:
     - El acceso es costoso y limita su uso frecuente en monitoreo ambiental
     - Personal altamente capacitado
 
-👉 **Problema central:**
+👉 **Problema central:**  
 Existe una tecnología para detectar microplásticos (FTIR, Raman), pero es costosa, poco portátil y requiere personal especializado, lo que impide el monitoreo continuo y accesible en ecosistemas marinos y costeros.
 
 ---
@@ -109,7 +109,7 @@ Basado en un modelo:
 - B2B (Business to Business)
 - B2G (Business to Government)
 
-💡 Propuesta:
+💡 Propuesta:  
 Servicio integral que incluye:
 - Instalación  
 - Mantenimiento
