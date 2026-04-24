@@ -1,6 +1,6 @@
 ## MATRIZ DE DESK RESEARCH
 
-**Proyecto:** YAKU-ÑAWI - Sistema portátil de detección y clasificación de microplásticos PP y PET basado en inteligencia artificial 
+**Proyecto:** YAKU-ÑAWI - Sistema portátil de detección y clasificación de microplásticos PP y PET basado en inteligencia artificial   
 **Ubicación:** Playas y humedales, Lima – Perú  
 
 **Problematica:**  
