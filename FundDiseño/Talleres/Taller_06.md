@@ -4,7 +4,7 @@
 **Ubicación:** Playas y humedales, Lima – Perú  
 
 **Problematica:**  
-¿Cómo diseñar un sistema de
+¿Cómo diseñar un sistema portátil capaz de detectar y clasificar microplásticos de tipo PET y PP en muestras de agua mediante el análisis de imágenes en tiempo real?
 
 ---
 
