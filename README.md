@@ -20,7 +20,7 @@ La solución integra técnicas de procesamiento digital de imágenes, visión co
 
 El objetivo principal de Yaku-Ñawi es lograr la identificación temprana de microplásticos mediante un sistema autónomo capaz de procesar datos sin depender de infraestructura externa ni análisis de laboratorio especializados. Esto permite implementar un monitoreo ambiental continuo, oportuno y adaptado a condiciones reales, reduciendo tiempos, costos operativos y barreras tecnológicas existentes en los métodos tradicionales.
 
-A través de esta propuesta tecnológica, Yaku-Ñawi busca contribuir a la mitigación del impacto ambiental generado por la contaminación plástica en ecosistemas acuáticos, alineándose con los Objetivos de Desarrollo Sostenible, ODS 6 y ODS 14.
+A través de esta propuesta tecnológica, Yaku-Ñawi busca contribuir a la mitigación del impacto ambiental generado por la contaminación plástica en ecosistemas acuáticos, alineándose con los Objetivos de Desarrollo Sostenible (ODS 6 y ODS 14).
 </p>
 
 ---
@@ -125,7 +125,8 @@ Disponible en: doi:10.1007/s11356-023-27707-6.
 Disponible en: doi:10.1016/j.heliyon.2023.e20440.
 4. Luque Fernández CR. Contaminación por microplásticos en playas arenosas de Islay, departamento de Arequipa [Internet]. 17 de enero de 2020 [citado 1 de abril de 2026].  
 Disponible en: https://repositorio.ucsm.edu.pe/handle/20.500.12920/9869. 
-5. Gimiliani GT. Caracterização de microplásticos em amostras marinhas e estuarinas [tesis doctoral]. São Paulo: Instituto de Pesquisas Energéticas e Nucleares, Universidade de São Paulo; 2021. Disponible en: https://www.teses.usp.br/teses/disponiveis/85/85134/tde-22102021-104234/pt-br.php.
+5. Gimiliani GT. Caracterização de microplásticos em amostras marinhas e estuarinas [tesis doctoral]. São Paulo: Instituto de Pesquisas Energéticas e Nucleares, Universidade de São Paulo; 2021. 
+Disponible en: https://www.teses.usp.br/teses/disponiveis/85/85134/tde-22102021-104234/pt-br.php.
 6. Geyer R, Jambeck JR, Law KL. Production, use, and fate of all plastics ever made. Sci Adv. 2017;3(7):e1700782. 
 Disponible en: doi:10.1126/sciadv.1700782
 7. Osman AI, Hosny M, Eltaweil AS, Omar S, Elgarahy AM, Farghali M, et al. Microplastic sources, formation, toxicity and remediation: a review. Environ Chem Lett. 2023;21:2129-2169. 
