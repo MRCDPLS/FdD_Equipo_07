@@ -125,11 +125,11 @@ Disponible en: doi:10.1007/s11356-023-27707-6.
 Disponible en: doi:10.1016/j.heliyon.2023.e20440.
 4. Luque Fernández CR. Contaminación por microplásticos en playas arenosas de Islay, departamento de Arequipa [Internet]. 17 de enero de 2020 [citado 1 de abril de 2026].  
 Disponible en: https://repositorio.ucsm.edu.pe/handle/20.500.12920/9869. 
-5. Gimiliani GT. Caracterização de microplásticos em amostras marinhas e estuarinas [tesis doctoral]. São Paulo: Instituto de Pesquisas Energéticas e Nucleares, Universidade de São Paulo; 2021. 
+5. Gimiliani GT. Caracterização de microplásticos em amostras marinhas e estuarinas [tesis doctoral]. São Paulo: Instituto de Pesquisas Energéticas e Nucleares, Universidade de São Paulo; 2021.   
 Disponible en: https://www.teses.usp.br/teses/disponiveis/85/85134/tde-22102021-104234/pt-br.php.
 6. Geyer R, Jambeck JR, Law KL. Production, use, and fate of all plastics ever made. Sci Adv. 2017;3(7):e1700782. 
 Disponible en: doi:10.1126/sciadv.1700782
-7. Osman AI, Hosny M, Eltaweil AS, Omar S, Elgarahy AM, Farghali M, et al. Microplastic sources, formation, toxicity and remediation: a review. Environ Chem Lett. 2023;21:2129-2169. 
+7. Osman AI, Hosny M, Eltaweil AS, Omar S, Elgarahy AM, Farghali M, et al. Microplastic sources, formation, toxicity and remediation: a review. Environ Chem Lett. 2023;21:2129-2169.   
 Disponible en: doi:10.1007/s10311-023-01593-3.
 8. Rios Mendoza LM, Balcer M. Microplastics in freshwater environments: A review of quantification assessment. Trends Analyt Chem. 2019;113:402-408.
 9. Hu B, Dai Y, Zhou H, Sun Y, Yu H, Dai Y, et al. Using artificial intelligence to rapidly identify microplastics pollution and predict microplastics environmental behaviors. J Hazard Mater. 2024;474:134865.
