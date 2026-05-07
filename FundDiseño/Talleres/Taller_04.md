@@ -114,27 +114,29 @@ El método incluye: ampliar el mosaico de la membrana de filtrado de la muestra 
 <table border="1">
   <tr>
     <td><b>TÍTULO </b></td>
-    <td colspan="2">  INTEGRATED DEVICE FOR SYNCHRONOUS COLLECTION OF SEA WATER MICRO PLASTIC AND SAMPLE MANUFACTURING  </td>
+    <td colspan="2">  PLASTIC DEBRIS AND MICROPLASTICS DETECTION METHOD BASED ON RGB AND HYPERSPECTRAL IMAGE FUSION  </td>
   </tr>
   <tr>
-    <td>  CIP: G01N   </td>
-    <td colspan="2">  INVESTIGATING OR ANALYSING MATERIALS BY DETERMINING THEIR CHEMICAL OR PHYSICAL PROPERTIES (measuring or testing apparatus or processes other than immunoassay, involving enzymes or microorganisms C12M, C12Q)   </td>
+    <td>  CIP: 
+ GO1N21/00
+   </td>
+    <td colspan="2">  Investigating or analysing materials by the use of optical means, i.e. using sub-millimetre waves, infrared, visible or ultraviolet light (GO1N3/00 - GO1N19/00 take precedence)   </td>
   </tr>
   <tr>
     <td> NÚMERO DE PUBLICACIÓN </td>
-    <td> JP2022032399A  </td>
+    <td> W02024066118A1   </td>
     <td> IMAGEN </td>
   </tr>
   <tr>
     <td style="width:15%"> Resumen </td>
-    <td style="width:40%">  Proporcionar un dispositivo integrado para la recogida síncrona de microplásticos y fabricación de muestras de agua de mar que incluya un conector de agua de mar 1 para recoger una muestra de crudo de agua de mar, un tanque 41 para almacenar la muestra de crudo de agua de mar, un cuerpo de cilindro exterior 51 que se extienda por el interior del tanque, un conjunto de filtrado 56 instalado en la parte inferior del cuerpo exterior del cilindro, y un conjunto de ventilación 55 para aplicar presión positiva/negativa en el interior. EFECTO: Es posible recoger simultáneamente agua de mar y fabricar una muestra que pueda ser detectada. Procesos de fabricación como el lavado de muestras, separación y filtrado por presurización se realizan en un solo dispositivo. Se reduce una pluralidad de pasos de transporte, y la probabilidad de contaminación y pérdida durante un proceso de transporte puede disminuir.
+    <td style="width:40%">  Método de detección de residuos plásticos y microplásticos basado en la fusión de imágenes RGB e hiperespectrales . El método comprende los siguientes pasos: obtención de residuos plásticos y microplásticos ; mezcla de los residuos plásticos y los microplásticos con residuos sólidos para obtener una matriz de fase sólida; pretratamiento de la matriz de fase sólida para obtener un material; secado del material para eliminar parte de la humedad y posterior recubrimiento sobre una lámina de cuarzo, secado del material hasta su completa eliminación de la humedad y prensado del material plano con otra lámina de cuarzo para obtener un material a analizar; uso de un escáner de imágenes en color de alta resolución y una cámara hiperespectral para obtener una imagen RGB y una imagen hiperespectral del material a analizar; fusión de la imagen RGB con la imagen hiperespectral ; y uso de un modelo de clasificación supervisada para clasificar e identificar automáticamente los residuos plásticos y los microplásticos . No se requieren pasos de separación como la flotación por densidad, lo que reduce la pérdida de residuos plásticos y microplásticos durante el pretratamiento. El tiempo necesario para la detección es corto y se logra un análisis de alto rendimiento de una gran cantidad de muestras; además, se amplía el rango de tamaño de identificación de los residuos plásticos y los microplásticos , y se mejora la precisión de la identificación.
 
    </td>
-    <td style="width:45%" > <img src="/Recursos/Imágenes/patente5.png" width="100%"/>  </td>
+    <td style="width:45%" > <img src="/Recursos/Imágenes/patentesiclali.jpg" width="100%"/>  </td>
   </tr>
   <tr>
     <td > LINK </td>
-    <td colspan="3">  https://worldwide.espacenet.com/patent/search?q=pn%3DJP2022032399A
+    <td colspan="3">  https://worldwide.espacenet.com/patent/search?q=pn%3DWO2024066118A1
 
  </td>
   </tr>
