@@ -1,5 +1,5 @@
 ## 
-| Certificados de OneShape |
+| Certificados de Advanced OneShape Assemblies |
 |-------------|
 |<img src="/Recursos/Imágenes/Y.jpg">|
 |<img src="/Recursos/Imágenes/CertificadoBruno10.jpg">|
