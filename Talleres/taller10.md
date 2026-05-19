@@ -1,1 +1,8 @@
-<img src="/Recursos/Imágenes/modelado_3d_1.png">
+## 
+| Certificados de OneShape |
+|-------------|
+|<img src="/Recursos/Imágenes/Y.jpg">|
+|<img src="/Recursos/Imágenes/CertificadoBruno10.jpg">|
+|<img src="/Recursos/Imágenes/CertificadoRebeca10.jpg">|
+|<img src="/Recursos/Imágenes/CertificadoMarcelo10.jpg">|
+|<img src="/Recursos/Imágenes/M.png">|
