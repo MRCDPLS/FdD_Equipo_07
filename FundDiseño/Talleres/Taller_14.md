@@ -8,7 +8,7 @@
 ### Imagen del bloque de MIT App Inventor
 A continuación se presenta el bloque del MIT App Inventor
 
-![Bloque Actividad 1](https://drive.google.com/file/d/1D5xYZtxJiR00PYCBLBq80FJNMhT6WZPw/view?usp=drive_link)
+![https://drive.google.com/file/d/1D5xYZtxJiR00PYCBLBq80FJNMhT6WZPw/view?usp=drive_link](https://drive.google.com/file/d/1D5xYZtxJiR00PYCBLBq80FJNMhT6WZPw/view?usp=drive_link)
 
 ---
 ### Imagen del Designer de MIT App Inventor
