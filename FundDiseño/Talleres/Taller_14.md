@@ -8,13 +8,13 @@
 ### Imagen del bloque de MIT App Inventor
 A continuación se presenta el bloque del MIT App Inventor
 
-![https://drive.google.com/file/d/1D5xYZtxJiR00PYCBLBq80FJNMhT6WZPw/view?usp=drive_link](https://drive.google.com/file/d/1D5xYZtxJiR00PYCBLBq80FJNMhT6WZPw/view?usp=drive_link)
+[https://drive.google.com/file/d/1D5xYZtxJiR00PYCBLBq80FJNMhT6WZPw/view?usp=drive_link](https://drive.google.com/file/d/1D5xYZtxJiR00PYCBLBq80FJNMhT6WZPw/view?usp=drive_link)
 
 ---
 ### Imagen del Designer de MIT App Inventor
 A continuación se presenta el Designer del MIT App Inventor
 
-![Design Actividad 2](https://drive.google.com/file/d/1QXypt_W8udMlN-QIv3HKQZ5a85_nzcKo/view?usp=drive_link)
+[https://drive.google.com/file/d/1QXypt_W8udMlN-QIv3HKQZ5a85_nzcKo/view?usp=drive_link](https://drive.google.com/file/d/1QXypt_W8udMlN-QIv3HKQZ5a85_nzcKo/view?usp=drive_link)
 
 ---
 
@@ -64,7 +64,7 @@ void loop() {
 ### Enlace a Recurso de Video
 El enlace a continuacion muestra como funciona:
 
-Enlace al video: [Ver Video](https://drive.google.com/file/d/1oEB_WucguHfDKxK_4054fNlgEVF8Y4Jw/view?usp=drive_link)
+Enlace al video: [https://drive.google.com/file/d/1oEB_WucguHfDKxK_4054fNlgEVF8Y4Jw/view?usp=drive_link](https://drive.google.com/file/d/1oEB_WucguHfDKxK_4054fNlgEVF8Y4Jw/view?usp=drive_link)
 
 ### Como funciona
 Esta práctica se enfoca en el control dinámico de actuadores utilizando tecnologías de red inalámbricas como Bluetooth o WiFi. El propósito fundamental es diseñar una interfaz gráfica en MIT App Inventor que disponga de una barra deslizante (denominada slider). Al mover este control en la pantalla del smartphone, se envían datos numéricos en tiempo real hacia el ESP32, el cual decodifica la señal para modificar con precisión el ángulo de giro de un servomotor acoplado al sistema.
@@ -77,13 +77,13 @@ En el apartado de hardware, la complejidad del cableado se reduce en comparació
 ### Imagen del bloque de MIT App Inventor
 A continuación se presenta el bloque del MIT App Inventor
 
-![Bloque Actividad 2](https://drive.google.com/file/d/1k5u4m1aDOfD-LFQjilzLEEmkRXQ-nm-8/view?usp=drive_link)
+[https://drive.google.com/file/d/1k5u4m1aDOfD-LFQjilzLEEmkRXQ-nm-8/view?usp=drive_link](https://drive.google.com/file/d/1k5u4m1aDOfD-LFQjilzLEEmkRXQ-nm-8/view?usp=drive_link)
 
 ---
 ### Imagen del Designer de MIT App Inventor
 A continuación se presenta el Designer del MIT App Inventor
 
-![Design Actividad 2](https://drive.google.com/file/d/1g2GzaLHDTw6mZWex8EHxU-rcTl4cUilY/view?usp=drive_link)
+[https://drive.google.com/file/d/1g2GzaLHDTw6mZWex8EHxU-rcTl4cUilY/view?usp=drive_link](https://drive.google.com/file/d/1g2GzaLHDTw6mZWex8EHxU-rcTl4cUilY/view?usp=drive_link)
 
 ---
 
@@ -161,7 +161,7 @@ void loop() {
 ### Enlace a Recurso de Video
 El enlace a continuacion muestra como funciona:
 
-Enlace al video: [Ver Video](https://drive.google.com/file/d/1lbO74vRa-t-MmN_bKW8oT_3HK0gYHMYx/view?usp=sharing)
+Enlace al video: [https://drive.google.com/file/d/1lbO74vRa-t-MmN_bKW8oT_3HK0gYHMYx/view?usp=sharing](https://drive.google.com/file/d/1lbO74vRa-t-MmN_bKW8oT_3HK0gYHMYx/view?usp=sharing)
 
 ### Como funciona
 El objetivo principal de este proyecto es diseñar e implementar un sistema de comunicación inalámbrica de corto alcance. Consiste en desarrollar una aplicación móvil personalizada mediante la plataforma MIT App Inventor que se conecte vía Bluetooth a un módulo ESP32 DevKit V1. La meta final es redactar un mensaje de texto desde un smartphone Android y transmitirlo de forma inalámbrica para que el microcontrolador lo procese y lo muestre en una pantalla LCD de 2x16 caracteres.
