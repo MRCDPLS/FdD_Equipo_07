@@ -1,3 +1,7 @@
 <p align="center">
-<img src="recursos/imágenes/logo-upch.png" width="70%">
+  <img src="/Recursos/Imágenes/logo-upch.png" width="70%">
 </p>
+
+#  🔧 INFORME: ENTREGABLE 3
+
+## 1. ESQUEMA ELECTRÓNICO 💾
