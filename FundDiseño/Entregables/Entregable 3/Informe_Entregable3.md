@@ -26,7 +26,7 @@ La PowerBank entrega +5V y GND a través de la bornera H5 (2 pines: pin 1 = +5V,
 </p>
 
 <p align="center">
-  <img src="/Recursos/Imágenes/5026548510714694858.jpg" width="70%">
+  <img src="/Recursos/Imágenes/5026548510714694858.jpg" width="60%">
 </p>
   
 <p align="center">Imagen 2. PowerBank.</p>
@@ -50,6 +50,12 @@ Es el cerebro del circuito. Distribuye sus GPIOs así:</p>
 <p align="justify">
 • SCK, MISO, MOSI → Comunicación SPI con la cámara.</p>
 </p>
+
+<p align="center">
+  <img src="/Recursos/Imágenes/xiao.jpg" width="70%">
+</p>
+  
+<p align="center">Imagen 3. Microcontrolador XIAO ESP32-S3 Sense.</p>
 
 ✅ _**Cámara OV3660:**_ 
 <p align="justify">
