@@ -25,11 +25,13 @@ En nuestro caso, el esquemático muestra cómo se integran todos los componentes
 La PowerBank entrega +5V y GND a través de la bornera H5 (2 pines: pin 1 = +5V, pin 2 = GND). Incluye un switch SW2 para encender/apagar el sistema.
 </p>
 
-<p align="center">
-  <img src="/Recursos/Imágenes/5026548510714694858.jpg" width="60%">
-</p>
-  
-<p align="center">Imagen 2. PowerBank.</p>
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 15px; vertical-align: top;">
+      <img src="/Recursos/Imágenes/5026548510714694858.jpg" width="220px"><br><br>
+      <sub>Imagen 2. PowerBank.</sub>
+    </td>
+</table>
 
 ✅ _**XIAO ESP32-S3 (Microcontrolador):**_ 
 <p align="justify">
@@ -51,22 +53,28 @@ Es el cerebro del circuito. Distribuye sus GPIOs así:</p>
 • SCK, MISO, MOSI → Comunicación SPI con la cámara.</p>
 </p>
 
-<p align="center">
-  <img src="/Recursos/Imágenes/xiao.jpg" width="70%">
-</p>
-  
-<p align="center">Imagen 3. Microcontrolador XIAO ESP32-S3 Sense.</p>
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="/Recursos/Imágenes/xiao.jpg" width="280px"><br><br>
+      <sub>Imagen 3. Microcontrolador XIAO ESP32-S3 Sense.</sub>
+    </td>
+  </tr>
+</table>
 
 ✅ _**Cámara OV3660:**_ 
 <p align="justify">
 Se comunica con el ESP32-S3 mediante SPI (SCK, MISO, MOSI) y control por GPIO6. Se alimenta con VCC y GND.
 </p>
 
-<p align="center">
-  <img src="/Recursos/Imágenes/camera3660.png" width="60%">
-</p>
-  
-<p align="center">Imagen 4. Cámara OV3660.</p>
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="/Recursos/Imágenes/camera3660.png" width="280px"><br><br>
+      <sub>Imagen 4. Cámara OV3660.</sub>
+    </td>
+  </tr>
+</table>
 
 ✅ _**Sensor de Turbidez (SEN0189):**_ 
 <p align="justify">
@@ -91,11 +99,14 @@ Se comunica con el ESP32-S3 mediante SPI (SCK, MISO, MOSI) y control por GPIO6. 
 • Incluye una resistencia R1 de 1KΩ en la línea de datos.
 </p>
 
-<p align="center">
-  <img src="/Recursos/Imágenes/pantallalcd.jpg" width="60%">
-</p>
-  
-<p align="center">Imagen 7. Pantalla LCD I2C (16×2).</p>
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="/Recursos/Imágenes/pantallalcd.jpg" width="320px"><br><br>
+      <sub>Imagen 7. Pantalla LCD I2C (16×2).</sub>
+    </td>
+  </tr>
+</table>
 
 ✅ _**LEDs (UV-A y Blanco)**_ 
 <p align="justify">
