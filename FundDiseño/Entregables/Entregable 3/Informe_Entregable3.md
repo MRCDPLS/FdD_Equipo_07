@@ -103,3 +103,16 @@ Se comunica con el ESP32-S3 mediante SPI (SCK, MISO, MOSI) y control por GPIO6. 
 <p align="justify">
 • Tienen una resistencia limitadora R2 de 270Ω para proteger los LEDs.
 </p>
+
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="/Recursos/Imágenes/led uva.jpg" width="250px"><br>
+      <sub>Imagen 8. LED UV-A.</sub>
+    </td>
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="/Recursos/Imágenes/led white.jpg" width="250px"><br>
+      <sub>Imagen 9. LED Blanco.</sub>
+    </td>
+  </tr>
+</table>
