@@ -63,7 +63,7 @@ Se comunica con el ESP32-S3 mediante SPI (SCK, MISO, MOSI) y control por GPIO6. 
 </p>
 
 <p align="center">
-  <img src="/Recursos/Imágenes/camera3660.jpg" width="60%">
+  <img src="/Recursos/Imágenes/camera3660.png" width="60%">
 </p>
   
 <p align="center">Imagen 4. Cámara OV3660.</p>
