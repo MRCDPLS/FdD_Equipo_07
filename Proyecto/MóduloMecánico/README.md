@@ -1,1 +1,0 @@
-Para ver el modelado 3D en Onshape haga click [aqui](https://cad.onshape.com/documents/a3401228d167df1a37c850f3/w/c2d1b406f5b14d1e06594caf/e/c4d6b980d02cd19e335c6659)
