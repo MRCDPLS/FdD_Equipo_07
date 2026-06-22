@@ -26,7 +26,7 @@ La PowerBank entrega +5V y GND a través de la bornera H5 (2 pines: pin 1 = +5V,
 </p>
 
 <p align="center">
-  <img src="https://github.com/Engineerbk/assets/5e0b56f5-5267-4e44-b008-74448918f48b" width="70%">
+  <img src="https://github.com/user_attachments/assets/5e0b56f5-5267-4e44-b008-74448918f48b" width="70%">
   
 <p align="center">Imagen 2. PowerBank. </p>
 
