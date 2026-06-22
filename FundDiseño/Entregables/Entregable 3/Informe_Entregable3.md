@@ -27,8 +27,9 @@ La PowerBank entrega +5V y GND a través de la bornera H5 (2 pines: pin 1 = +5V,
 
 <p align="center">
   <img src="https://github.com/user_attachments/assets/5e0b56f5-5267-4e44-b008-74448918f48b" width="70%">
+</p>
   
-<p align="center">Imagen 2. PowerBank. </p>
+<p align="center">Imagen 2. PowerBank.</p>
 
 ✅ _**XIAO ESP32-S3 (Microcontrolador):**_ 
 <p align="justify">
