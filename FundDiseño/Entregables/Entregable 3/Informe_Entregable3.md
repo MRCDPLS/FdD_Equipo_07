@@ -18,16 +18,22 @@ En nuestro caso, el esquemático muestra cómo se integran todos los componentes
 
 <p align="center">Imagen 1. Circuito electrónico del proyecto general en EasyEDA. </p>
 
-## EXPLICACIÓN DE CONEXIONES:
+## 1.1 EXPLICACIÓN DE CONEXIONES:
 
 ✅ _**Alimentación (PowerBank):**_
 <p align="justify">
 La PowerBank entrega +5V y GND a través de la bornera H5 (2 pines: pin 1 = +5V, pin 2 = GND). Incluye un switch SW2 para encender/apagar el sistema.
 </p>
 
+<p align="center">
+  <img src="https://github.com/Engineerbk/assets/5e0b56f5-5267-4e44-b008-74448918f48b" width="70%">
+  
+<p align="center">Imagen 2. PowerBank. </p>
+
 ✅ _**XIAO ESP32-S3 (Microcontrolador):**_ 
 <p align="justify">
 Es el cerebro del circuito. Distribuye sus GPIOs así:</p>
+
 <p align="justify">
 • GPIO1 → LEDs.</p>
 <p align="justify">
