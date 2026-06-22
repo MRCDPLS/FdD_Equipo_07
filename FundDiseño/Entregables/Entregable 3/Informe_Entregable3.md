@@ -62,6 +62,12 @@ Es el cerebro del circuito. Distribuye sus GPIOs así:</p>
 Se comunica con el ESP32-S3 mediante SPI (SCK, MISO, MOSI) y control por GPIO6. Se alimenta con VCC y GND.
 </p>
 
+<p align="center">
+  <img src="/Recursos/Imágenes/camera 3660.jpg" width="60%">
+</p>
+  
+<p align="center">Imagen 4. Cámara OV3660.</p>
+
 ✅ _**Sensor de Turbidez (SEN0189):**_ 
 <p align="justify">
 • Bornera H2 (3 pines): pin 1 = GND, pin 2 = señal, pin 3 = 5V.</p>
