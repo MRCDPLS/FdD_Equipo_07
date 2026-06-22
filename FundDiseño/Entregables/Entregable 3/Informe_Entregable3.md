@@ -20,50 +20,61 @@ En nuestro caso, el esquemático muestra cómo se integran todos los componentes
 
 ## EXPLICACIÓN DE CONEXIONES:
 
-_**- Alimentación (PowerBank):**_
+✅ _**Alimentación (PowerBank):**_
 <p align="justify">
 La PowerBank entrega +5V y GND a través de la bornera H5 (2 pines: pin 1 = +5V, pin 2 = GND). Incluye un switch SW2 para encender/apagar el sistema.
 </p>
 
-_**- XIAO ESP32-S3 (Microcontrolador):**_ 
+✅ _**XIAO ESP32-S3 (Microcontrolador):**_ 
 <p align="justify">
-Es el cerebro del circuito. Distribuye sus GPIOs así:
-
-• GPIO1 → LEDs
-• GPIO2 → SDA de la pantalla LCD
-• GPIO3 → Sensor de conductividad (TDS)
-• GPIO4 → Sensor de turbidez (SEN0189)
-• GPIO5 → SCL de la pantalla LCD
-• GPIO6 → Cámara OV3660
-• SCK, MISO, MOSI → Comunicación SPI con la cámara
+Es el cerebro del circuito. Distribuye sus GPIOs así:</p>
+<p align="justify">
+• GPIO1 → LEDs.</p>
+<p align="justify">
+• GPIO2 → SDA de la pantalla LCD.</p>
+<p align="justify">
+• GPIO3 → Sensor de conductividad (TDS).</p>
+<p align="justify">
+• GPIO4 → Sensor de turbidez (SEN0189).</p>
+<p align="justify">
+• GPIO5 → SCL de la pantalla LCD.</p>
+<p align="justify">
+• GPIO6 → Cámara OV3660.</p>
+<p align="justify">
+• SCK, MISO, MOSI → Comunicación SPI con la cámara.</p>
 </p>
 
-_**- Cámara OV3660**_ 
+✅ _**Cámara OV3660:**_ 
 <p align="justify">
 Se comunica con el ESP32-S3 mediante SPI (SCK, MISO, MOSI) y control por GPIO6. Se alimenta con VCC y GND.
 </p>
 
-_**- Sensor de Turbidez (SEN0189)**_ 
+✅ _**Sensor de Turbidez (SEN0189):**_ 
 <p align="justify">
-• Bornera H2 (3 pines): pin 1 = GND, pin 2 = señal, pin 3 = 5V
-• Se conecta al módulo SEN0189, el cual envía la señal analógica al GPIO4 del ESP32
+• Bornera H2 (3 pines): pin 1 = GND, pin 2 = señal, pin 3 = 5V.</p>
+<p align="justify">
+• Se conecta al módulo SEN0189, el cual envía la señal analógica al GPIO4 del ESP32.
 </p>
 
-_**- Sensor de Conductividad (TDS Meter V1.0)**_ 
+✅ _**Sensor de Conductividad (TDS Meter V1.0):**_ 
 <p align="justify">
-• Bornera H4 (3 pines): pin 1 = GND, pin 2 = GPIO3, pin 3 = 5V
-• El módulo TDS procesa la señal y la envía al GPIO3 del ESP32-S3
+• Bornera H4 (3 pines): pin 1 = GND, pin 2 = GPIO3, pin 3 = 5V.</p>
+<p align="justify">
+• El módulo TDS procesa la señal y la envía al GPIO3 del ESP32-S3.
 </p>
 
-_**- Pantalla LCD**_ 
+✅ _**Pantalla LCD:**_ 
 <p align="justify">
-• Se comunica por I2C: SDA → GPIO2, SCL → GPIO5
-• Bornera H3 (4 pines): pin 1 = +5V, pin 2 = GND, pin 3 = GPIO2, pin 4 = GPIO5
-• Incluye una resistencia R1 de 1KΩ en la línea de datos
+• Se comunica por I2C: SDA → GPIO2, SCL → GPIO5.</p>
+<p align="justify">
+• Bornera H3 (4 pines): pin 1 = +5V, pin 2 = GND, pin 3 = GPIO2, pin 4 = GPIO5.</p>
+<p align="justify">
+• Incluye una resistencia R1 de 1KΩ en la línea de datos.
 </p>
 
-_**- LEDs (UV-A y Blanco)**_ 
+✅ _**LEDs (UV-A y Blanco)**_ 
 <p align="justify">
-• Controlados desde GPIO1 del ESP32
-• Tienen una resistencia limitadora R2 de 270Ω para proteger los LEDs
+• Controlados desde GPIO1 del ESP32.</p>
+<p align="justify">
+• Tienen una resistencia limitadora R2 de 270Ω para proteger los LEDs.
 </p>
