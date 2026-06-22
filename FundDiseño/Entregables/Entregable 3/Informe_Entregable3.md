@@ -76,12 +76,21 @@ Se comunica con el ESP32-S3 mediante SPI (SCK, MISO, MOSI) y control por GPIO6. 
   </tr>
 </table>
 
-✅ _**Sensor de Turbidez (SEN0189):**_ 
+✅ _**Sensor de Turbidez (TSW-20M):**_ 
 <p align="justify">
 • Bornera H2 (3 pines): pin 1 = GND, pin 2 = señal, pin 3 = 5V.</p>
 <p align="justify">
 • Se conecta al módulo SEN0189, el cual envía la señal analógica al GPIO4 del ESP32.
 </p>
+
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="/Recursos/Imágenes/turbity.jpg" width="320px"><br><br>
+      <sub>Imagen 5. Sensor de Turbidez de agua (TSW-20M).</sub>
+    </td>
+  </tr>
+</table>
 
 ✅ _**Sensor de Conductividad (TDS Meter V1.0):**_ 
 <p align="justify">
@@ -89,6 +98,15 @@ Se comunica con el ESP32-S3 mediante SPI (SCK, MISO, MOSI) y control por GPIO6. 
 <p align="justify">
 • El módulo TDS procesa la señal y la envía al GPIO3 del ESP32-S3.
 </p>
+
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 10px;">
+      <img src="/Recursos/Imágenes/conductivity.jpg" width="320px"><br><br>
+      <sub>Imagen 6. Sensor de Conductividad (TDS Meter V1.0).</sub>
+    </td>
+  </tr>
+</table>
 
 ✅ _**Pantalla LCD:**_ 
 <p align="justify">
