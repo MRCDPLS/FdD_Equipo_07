@@ -91,6 +91,12 @@ Se comunica con el ESP32-S3 mediante SPI (SCK, MISO, MOSI) y control por GPIO6. 
 • Incluye una resistencia R1 de 1KΩ en la línea de datos.
 </p>
 
+<p align="center">
+  <img src="/Recursos/Imágenes/pantallalcd.jpg" width="60%">
+</p>
+  
+<p align="center">Imagen 7. Pantalla LCD I2C (16×2).</p>
+
 ✅ _**LEDs (UV-A y Blanco)**_ 
 <p align="justify">
 • Controlados desde GPIO1 del ESP32.</p>
