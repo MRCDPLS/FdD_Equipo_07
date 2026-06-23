@@ -145,3 +145,97 @@ Se comunica con el ESP32-S3 mediante SPI (SCK, MISO, MOSI) y control por GPIO6. 
     </td>
   </tr>
 </table>
+# 🔧 INFORME: MÓDULO MECÁNICO GENERAL
+
+## 2. DISEÑO MECÁNICO DEL PROTOTIPO
+
+### 2.1 Descripción General
+
+El módulo mecánico corresponde a la estructura física que integra y protege todos los componentes electrónicos del sistema Yaku-Ñawi. Su función principal es proporcionar soporte, estabilidad y protección a los sensores, microcontrolador, cámara, sistema de iluminación y fuente de alimentación, garantizando un correcto funcionamiento durante la adquisición y análisis de muestras de agua.
+
+El diseño fue desarrollado mediante modelado 3D, considerando criterios de resistencia mecánica, facilidad de ensamblaje, portabilidad y acceso a los componentes para mantenimiento o futuras modificaciones.
+
+### 2.2 Componentes Mecánicos Principales
+
+#### ✅ Carcasa Principal
+
+La carcasa constituye la estructura externa del dispositivo. Su diseño permite alojar de forma segura todos los módulos electrónicos, evitando daños por golpes, vibraciones o manipulación durante las pruebas experimentales.
+
+Funciones:
+
+* Protección de los componentes internos.
+* Soporte estructural del sistema.
+* Facilitar el transporte del prototipo.
+* Mantener el ordenado cableado interno.
+
+#### ✅ Compartimento para Sensores
+
+Se diseñó una sección específica para la ubicación de los sensores de turbidez y conductividad, permitiendo una correcta exposición a las muestras de agua durante el proceso de medición.
+
+Funciones:
+
+* Mantener una posición fija de los sensores.
+* Evitar desplazamientos durante las mediciones.
+* Facilitar la inmersión y extracción de las sondas.
+
+#### ✅ Soporte para Cámara
+
+La cámara fue instalada en un soporte mecánico que garantiza una orientación constante hacia la muestra analizada.
+
+Funciones:
+
+* Mantener la distancia focal adecuada.
+* Reducir errores por movimientos o vibraciones.
+* Garantizar uniformidad en la captura de imágenes.
+
+#### ✅ Sistema de Iluminación
+
+Se incorporaron alojamientos para los LEDs UV-A y LEDs blancos, ubicándolos estratégicamente para iluminar homogéneamente la muestra.
+
+Funciones:
+
+* Mejorar la calidad de captura de imágenes.
+* Resaltar características ópticas de los microplásticos.
+* Minimizar sombras e interferencias lumínicas.
+
+#### ✅ Compartimento de Alimentación
+
+Se implementó un espacio destinado a la PowerBank y al sistema de encendido, permitiendo una alimentación portátil y segura del equipo.
+
+Funciones:
+
+* Facilitar la conexión eléctrica.
+* Permitir el reemplazo de la fuente de energía.
+* Mantener organizados los elementos de alimentación.
+
+### 2.3 Materiales Utilizados
+
+La estructura fue fabricada mediante impresión 3D utilizando material plástico de bajo peso y buena resistencia mecánica, adecuado para aplicaciones de prototipado y desarrollo tecnológico.
+
+Las principales ventajas del material utilizado son:
+
+* Bajo peso.
+* Facilidad de fabricación.
+* Resistencia suficiente para uso experimental.
+* Posibilidad de modificaciones rápidas mediante rediseño e impresión.
+
+### 2.4 Proceso de Diseño y Fabricación
+
+El desarrollo del módulo mecánico comprendió las siguientes etapas:
+
+1. Identificación de requerimientos del sistema.
+2. Diseño conceptual de la estructura.
+3. Modelado tridimensional mediante software CAD.
+4. Verificación de dimensiones y compatibilidad con componentes electrónicos.
+5. Fabricación mediante impresión 3D.
+6. Ensamblaje y pruebas de funcionamiento.
+
+### 2.5 Resultados del Diseño Mecánico
+
+El módulo mecánico permitió integrar satisfactoriamente todos los subsistemas del proyecto, proporcionando una estructura estable, compacta y funcional. El diseño facilita el acceso a los componentes internos, mejora la organización del sistema y contribuye a la portabilidad del prototipo.
+
+Asimismo, la disposición de la cámara, sensores y sistema de iluminación garantiza condiciones adecuadas para la adquisición de datos y detección de microplásticos en muestras de agua.
+
+### 2.6 Conclusiones
+
+El diseño mecánico desarrollado cumple con los requerimientos funcionales del proyecto, permitiendo la correcta integración de los componentes electrónicos y asegurando la estabilidad estructural del sistema. La fabricación mediante impresión 3D permitió obtener un prototipo ligero, resistente y adaptable a futuras mejoras del dispositivo.
