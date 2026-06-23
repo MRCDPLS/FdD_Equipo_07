@@ -20,7 +20,7 @@
     <img src="https://img.shields.io/badge/ARTÍCULO%206-Ver%20Paper-e8aeff?style=for-the-badge&logo=read-the-docs&logoColor=white" style="margin-bottom: 5px;">
   </a>
 </p>
-# Contribución de los Artículos Científicos al Proyecto
+Contribución de los Artículos Científicos al Proyecto
 
 ### Artículo 1 — Panorama global de la contaminación plástica
 
