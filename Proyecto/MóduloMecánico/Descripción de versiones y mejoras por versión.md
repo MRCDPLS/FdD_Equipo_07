@@ -28,12 +28,6 @@ A partir de estas observaciones, se planteó una nueva propuesta de diseño para
 
 <p align="center">Imagen 1. imagen 3D versión 1.1. </p>
 
-<p align="center">
-  <img src="/Recursos/Imágenes/versión 1.jpeg" width="70%">
-</p>
-
-<p align="center">Imagen 1. imagen 3D versión 1.2. </p>
-
 ## VERSIÓN 2 (V2): REDISEÑO Y OPTIMIZACIÓN
 <p align="justify">
 La segunda versión incorporó las observaciones obtenidas durante la primera evaluación. Se realizaron ajustes en la geometría de la carcasa y en la disposición de los componentes internos, permitiendo una mejor organización del sistema y una integración más eficiente de los elementos mecánicos y electrónicos.
