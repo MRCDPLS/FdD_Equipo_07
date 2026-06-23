@@ -59,7 +59,7 @@ A partir de las observaciones realizadas durante las versiones anteriores, se pe
 Esta versión representa la solución final del diseño mecánico, logrando una estructura funcional, resistente y de fácil manufactura. El resultado fue un módulo capaz de alojar de forma segura todos los componentes del sistema, facilitando tanto el ensamblaje como las futuras tareas de operación, mantenimiento y validación del prototipo.
 </p>
 <p align="center">
-  <img src="/Recursos/Imágenes/v3...jpeg" width="70%">
+  <img src="/Recursos/Imágenes/versión final 3.jpeg" width="70%">
 </p>
 
 <p align="center">Imagen 1. imagen 3D versión 3.0 </p>
