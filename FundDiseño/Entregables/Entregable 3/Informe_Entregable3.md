@@ -5,6 +5,9 @@
 #  🔧 INFORME: ENTREGABLE 3
 
 ## 1. ESQUEMA ELECTRÓNICO 💾
+
+## 1.1 DESCRIPCIÓN GENERAL
+
 <p align="justify">
 En esta sección, presentamos el circuito esquemático de nuestro proyecto utilizando la herramienta EasyEDA para el diseño, simulación y fabricación de circuitos electrónicos y placas de circuito impreso (PCB). Se trata de una representación gráfica de un circuito eléctrico que emplea símbolos estandarizados para ilustrar tanto los componentes como las conexiones entre ellos. Este tipo de diagrama es ampliamente utilizado en electrónica para describir y visualizar la disposición de los elementos de un sistema.
 </p>
@@ -18,7 +21,7 @@ En nuestro caso, el esquemático muestra cómo se integran todos los componentes
 
 <p align="center">Imagen 1. Circuito electrónico del proyecto general en EasyEDA. </p>
 
-## 1.1 EXPLICACIÓN DE CONEXIONES:
+## 1.2 EXPLICACIÓN DE CONEXIONES:
 
 ✅ _**Alimentación (PowerBank):**_
 <p align="justify">
@@ -145,21 +148,30 @@ Se comunica con el ESP32-S3 mediante SPI (SCK, MISO, MOSI) y control por GPIO6. 
     </td>
   </tr>
 </table>
-# 🔧 INFORME: MÓDULO MECÁNICO GENERAL
 
 ## 2. DISEÑO MECÁNICO DEL PROTOTIPO
 
 ### 2.1 Descripción General
 
-El módulo mecánico corresponde a la estructura física que integra y protege todos los componentes electrónicos del sistema Yaku-Ñawi. Su función principal es proporcionar soporte, estabilidad y protección a los sensores, microcontrolador, cámara, sistema de iluminación y fuente de alimentación, garantizando un correcto funcionamiento durante la adquisición y análisis de muestras de agua.
+El módulo mecánico corresponde a la estructura física que integra y protege todos los componentes electrónicos del sistema Yaku-Ñawi. Su función principal es proporcionar soporte, estabilidad y protección a los sensores, microcontrolador, cámara, sistema de iluminación y fuente de alimentación, garantizando un correcto funcionamiento durante el análisis de muestras de agua.
 
-El diseño fue desarrollado mediante modelado 3D, considerando criterios de resistencia mecánica, facilidad de ensamblaje, portabilidad y acceso a los componentes para mantenimiento o futuras modificaciones.
+El diseño fue desarrollado mediante la pagina de modelamiento 3D online "Onshape", considerando criterios de resistencia mecánica, facilidad de ensamblaje, portabilidad y acceso a los componentes para mantenimiento o futuras modificaciones.
 
 ### 2.2 Componentes Mecánicos Principales
 
 #### ✅ Carcasa Principal
 
 La carcasa constituye la estructura externa del dispositivo. Su diseño permite alojar de forma segura todos los módulos electrónicos, evitando daños por golpes, vibraciones o manipulación durante las pruebas experimentales.
+
+
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 15px; vertical-align: top;">
+      <img src="/Recursos/Imágenes/caja_3d.png" width="220px"><br><br>
+      <sub>Imagen 10. Carcasa Principal </sub>
+    </td>
+  </tr>
+</table>
 
 Funciones:
 
@@ -168,39 +180,74 @@ Funciones:
 * Facilitar el transporte del prototipo.
 * Mantener el ordenado cableado interno.
 
-#### ✅ Compartimento para Sensores
 
-Se diseñó una sección específica para la ubicación de los sensores de turbidez y conductividad, permitiendo una correcta exposición a las muestras de agua durante el proceso de medición.
+
+#### ✅ Soporte para lente
+
+El lente fue instalada en un soporte que garantiza una orientación fija hacia la muestra analizada.
+
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 15px; vertical-align: top;">
+      <img src="/Recursos/Imágenes/soporte_lente.png" width="220px"><br><br>
+      <sub>Imagen 11. Soporte para el lente </sub>
+    </td>
+  </tr>
+</table>
 
 Funciones:
 
-* Mantener una posición fija de los sensores.
-* Evitar desplazamientos durante las mediciones.
-* Facilitar la inmersión y extracción de las sondas.
-
-#### ✅ Soporte para Cámara
-
-La cámara fue instalada en un soporte mecánico que garantiza una orientación constante hacia la muestra analizada.
-
-Funciones:
-
-* Mantener la distancia focal adecuada.
+* Mantener la distancia focal fija.
 * Reducir errores por movimientos o vibraciones.
 * Garantizar uniformidad en la captura de imágenes.
 
-#### ✅ Sistema de Iluminación
+#### ✅ Placa para electronica
 
-Se incorporaron alojamientos para los LEDs UV-A y LEDs blancos, ubicándolos estratégicamente para iluminar homogéneamente la muestra.
+Se incorporó una placa para toda la electrónica(salvo la cámara, ya que es un sensor), además de  alojamientos para los LEDs UV-A y LEDs de luz blanca, como para la salida de cables para los sensores de turbidez y conductividad, ubicándolos estratégicamente para iluminar homogéneamente la muestra.
+
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 15px; vertical-align: top;">
+      <img src="/Recursos/Imágenes/placa_electrónica.png" width="220px"><br><br>
+      <sub>Imagen 12. Placa para electrónica </sub>
+    </td>
+  </tr>
+</table>
 
 Funciones:
 
-* Mejorar la calidad de captura de imágenes.
-* Resaltar características ópticas de los microplásticos.
+* Separar la electrónica de la muestra para evitar la exposición al agua.
+* Aumentar altura para mayor visibilidad de los microplásticos.
 * Minimizar sombras e interferencias lumínicas.
 
-#### ✅ Compartimento de Alimentación
+#### ✅ Placa para cámara
 
-Se implementó un espacio destinado a la PowerBank y al sistema de encendido, permitiendo una alimentación portátil y segura del equipo.
+Se incorporó una placa exclusiva para la camara por dos motivos, separar la electronica de la camara, que la placa obstruya posible luz que pueda haber por parte de los orificios de la carcasa sin obstruir la salidas de los LEDs ni de los cables para los sensores.
+
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 15px; vertical-align: top;">
+      <img src="/Recursos/Imágenes/placa_cámara.png" width="220px"><br><br>
+      <sub>Imagen 13. Placa para Cámara </sub>
+    </td>
+  </tr>
+</table>
+Funciones:
+
+* Mencionadas en la descripcion anterior
+
+#### ✅ Soporte para Powerbank
+
+Se implementó un espacio destinado a la PowerBank , permitiendo una alimentación portátil y segura del equipo.
+
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 15px; vertical-align: top;">
+      <img src="/Recursos/Imágenes/soporte_powerbank.png" width="220px"><br><br>
+      <sub>Imagen 14. Soporte para Powerbank </sub>
+    </td>
+  </tr>
+</table>
 
 Funciones:
 
@@ -208,34 +255,54 @@ Funciones:
 * Permitir el reemplazo de la fuente de energía.
 * Mantener organizados los elementos de alimentación.
 
-### 2.3 Materiales Utilizados
+#### ✅ Puerta Inferior
 
-La estructura fue fabricada mediante impresión 3D utilizando material plástico de bajo peso y buena resistencia mecánica, adecuado para aplicaciones de prototipado y desarrollo tecnológico.
+Destinado a aislar la muestra de la luz, funciona a presión.
 
-Las principales ventajas del material utilizado son:
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 15px; vertical-align: top;">
+      <img src="/Recursos/Imágenes/puerta_inferior.png" width="220px"><br><br>
+      <sub>Imagen 15. Puerta Inferior </sub>
+    </td>
+  </tr>
+</table>
 
-* Bajo peso.
-* Facilidad de fabricación.
-* Resistencia suficiente para uso experimental.
-* Posibilidad de modificaciones rápidas mediante rediseño e impresión.
+Funciones:
 
-### 2.4 Proceso de Diseño y Fabricación
+* Mencionadas en la descripcion anterior.
 
-El desarrollo del módulo mecánico comprendió las siguientes etapas:
+#### ✅ Puerta Superior
 
-1. Identificación de requerimientos del sistema.
-2. Diseño conceptual de la estructura.
-3. Modelado tridimensional mediante software CAD.
-4. Verificación de dimensiones y compatibilidad con componentes electrónicos.
-5. Fabricación mediante impresión 3D.
-6. Ensamblaje y pruebas de funcionamiento.
+Misma Funcion de la puerta inferior, con la diferencia de tener una pantalla LCD destinada a mostrar resultados
 
-### 2.5 Resultados del Diseño Mecánico
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 15px; vertical-align: top;">
+      <img src="/Recursos/Imágenes/puerta_superior.png" width="220px"><br><br>
+      <sub>Imagen 16. Puerta Superior </sub>
+    </td>
+  </tr>
+</table>
 
-El módulo mecánico permitió integrar satisfactoriamente todos los subsistemas del proyecto, proporcionando una estructura estable, compacta y funcional. El diseño facilita el acceso a los componentes internos, mejora la organización del sistema y contribuye a la portabilidad del prototipo.
+Funciones:
 
-Asimismo, la disposición de la cámara, sensores y sistema de iluminación garantiza condiciones adecuadas para la adquisición de datos y detección de microplásticos en muestras de agua.
+* Mencionadas en la descripcion anterior.
 
-### 2.6 Conclusiones
 
-El diseño mecánico desarrollado cumple con los requerimientos funcionales del proyecto, permitiendo la correcta integración de los componentes electrónicos y asegurando la estabilidad estructural del sistema. La fabricación mediante impresión 3D permitió obtener un prototipo ligero, resistente y adaptable a futuras mejoras del dispositivo.
+#### ✅ Cubierta para cámara
+
+Con la funcion de evitar daños, tanto a la cámara como del procesador.
+
+<table align="center" style="border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; padding: 15px; vertical-align: top;">
+      <img src="/Recursos/Imágenes/cubierta_cámara.png" width="220px"><br><br>
+      <sub>Imagen 17. Cubierta para cámara </sub>
+    </td>
+  </tr>
+</table>
+
+Funciones:
+
+* Mencionadas en la descripcion anterior.
