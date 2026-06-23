@@ -14,13 +14,13 @@ Nuestro objetivo es diseñar e implementar una solución tecnológica basada en 
 
 ## 📌 Descripción del Proyecto
 <p align="justify">
-El Equipo 07 desarrolla un dispositivo portátil de detección automatizada de microplásticos llamado Yaku-Ñawi, enfocado en la identificación de polímeros como PP (polipropileno) y PET (polietileno tereftalato) en playas y humedales de Lima y Callao.
+El Equipo 07 desarrolla un dispositivo portátil de detección automatizada de microplásticos llamado Yaku-Ñawi, enfocado en la identificación de partículas polímeras como PP (polipropileno) y EPS (poliestireno expandido) en playas y humedales de Lima y Callao.
 
-La solución integra técnicas de procesamiento digital de imágenes, visión computacional e inteligencia artificial, empleando hardware embebido basado en ESP32-CAM para su funcionamiento en entornos marino-costeros. El sistema captura imágenes de muestras ambientales y aplica modelos de IA para detectar y clasificar microplásticos directamente en campo, permitiendo diferenciar contaminantes de forma automática y eficiente.
+La solución integra técnicas de procesamiento digital de imágenes, visión computacional e inteligencia artificial, empleando hardware embebido basado en Seeed Studio XIAO ESP32-S3 Sense, una placa con cámara integrada que permite la captura de imágenes en campo y su procesamiento dentro de una arquitectura portátil. Para mejorar la observación de las muestras, el prototipo incorpora iluminación ultravioleta (UV), aprovechando las propiedades ópticas de ciertos polímeros para facilitar su diferenciación visual y fortalecer el análisis computacional. De manera complementaria, el sistema puede integrar sensores de apoyo para caracterizar el entorno de la muestra, contribuyendo a una evaluación más completa del estado del agua.
 
 El objetivo principal de Yaku-Ñawi es lograr la identificación temprana de microplásticos mediante un sistema autónomo capaz de procesar datos sin depender de infraestructura externa ni análisis de laboratorio especializados. Esto permite implementar un monitoreo ambiental continuo, oportuno y adaptado a condiciones reales, reduciendo tiempos, costos operativos y barreras tecnológicas existentes en los métodos tradicionales.
 
-A través de esta propuesta tecnológica, Yaku-Ñawi busca contribuir a la mitigación del impacto ambiental generado por la contaminación plástica en ecosistemas acuáticos, alineándose con los Objetivos de Desarrollo Sostenible (ODS 6 y ODS 14).
+A través de esta propuesta, Yaku-Ñawi busca contribuir al estudio y monitoreo de la contaminación por microplásticos en ecosistemas marino-costeros, alineándose con los Objetivos de Desarrollo Sostenible, especialmente el ODS 6: Agua limpia y saneamiento y el ODS 14: Vida submarina.
 </p>
 
 ---
@@ -35,7 +35,7 @@ En el Perú, la deficiente gestión de residuos sólidos y el inadecuado manejo 
 </p>
 
 <p align="justify">
-Frente a este escenario, el presente proyecto propone determinar la presencia de microplásticos en humedales y playas de Lima y Callao mediante una metodología de análisis orientada a la identificación de polímeros sintéticos de uso común, como el polipropileno (PP) y el polietileno tereftalato (PET) (4). De esta manera, se busca generar evidencia científica que permita dimensionar la magnitud de esta contaminación y sentar bases para el desarrollo de estrategias de monitoreo y mitigación en ecosistemas acuáticos (5).
+Frente a este escenario, el presente proyecto propone determinar la presencia de microplásticos en humedales y playas de Lima y Callao mediante una metodología de análisis orientada a la identificación de polímeros sintéticos de uso común, como el polipropileno (PP) y el poliestireno expandido (EPS) (4). De esta manera, se busca generar evidencia científica que permita dimensionar la magnitud de esta contaminación y sentar bases para el desarrollo de estrategias de monitoreo y mitigación en ecosistemas acuáticos (5).
 </p>
 
 ---
@@ -43,7 +43,7 @@ Frente a este escenario, el presente proyecto propone determinar la presencia de
 ## ⚠️ Problemática 
 ### Problemática a Nivel Mundial
 <p align="justify">
-La crisis de los microplásticos está impulsada principalmente por polímeros de alta producción como el polipropileno (PP) y el polietileno tereftalato (PET). El polipropileno representa aproximadamente el 21 % de la producción total de plásticos no fibrosos, siendo ampliamente utilizado en envases, empaques y materiales industriales, lo que incrementa su liberación al ambiente tras su disposición final inadecuada (6). Por su parte, el PET constituye un material fundamental en la industria de bebidas y textiles sintéticos, donde domina la producción de fibras artificiales utilizadas globalmente (6,7).
+La crisis de los microplásticos está impulsada principalmente por polímeros de alta producción como el polipropileno (PP) y el EPS (poliestireno expandido). El polipropileno representa aproximadamente el 21 % de la producción total de plásticos no fibrosos, siendo ampliamente utilizado en envases, empaques y materiales industriales, lo que incrementa su liberación al ambiente tras su disposición final inadecuada (6). Por su parte, el PET constituye un material fundamental en la industria de bebidas y textiles sintéticos, donde domina la producción de fibras artificiales utilizadas globalmente (6,7).
 </p>
 
 #### Impactos y comportamiento:
@@ -54,7 +54,7 @@ La crisis de los microplásticos está impulsada principalmente por polímeros d
 
 * Comportamiento en el agua: 
   <p align="justify">
-  El PP posee una densidad aproximada de 0.94 g/mL, característica que le permite flotar y dispersarse ampliamente en la superficie marina. En contraste, el PET presenta mayor densidad, favoreciendo su sedimentación y acumulación en fondos acuáticos (7,8).
+  El EPS posee una densidad aproximada de 0.94 g/mL, característica que le permite flotar y dispersarse ampliamente en la superficie marina. En contraste, el PET presenta mayor densidad, favoreciendo su sedimentación y acumulación en fondos acuáticos (7,8).
   </p>
 
 * Presencia en humanos: 
@@ -64,7 +64,7 @@ La crisis de los microplásticos está impulsada principalmente por polímeros d
 
 ### Problemática a Nivel Local
 <p align="justify">
-En Lima y el Callao, el PP y el PET representan contaminantes prioritarios debido al elevado consumo de productos descartables y a deficiencias en la gestión integral de residuos sólidos. Se estima que cerca del 40 % de los residuos generados en el país no recibe una disposición adecuada, terminando en ríos, playas y ecosistemas marinos donde se fragmentan progresivamente en microplásticos (11).
+En Lima y el Callao, el ESP y el PET representan contaminantes prioritarios debido al elevado consumo de productos descartables y a deficiencias en la gestión integral de residuos sólidos. Se estima que cerca del 40 % de los residuos generados en el país no recibe una disposición adecuada, terminando en ríos, playas y ecosistemas marinos donde se fragmentan progresivamente en microplásticos (11).
 </p>
 
 #### Hallazgos específicos en Lima:

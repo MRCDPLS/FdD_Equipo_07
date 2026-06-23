@@ -12,19 +12,27 @@
   </a>
 </p>
 
-### 📄 NORMA 1: 
+### 📄 NORMA 1: UNE-EN ISO 7027-1 / ISO 7027-1 (Calidad del Agua - Determinación de la Turbidez)
 <p align="justify">
--Resumen: Trata sobre un método de preprocesamiento, fusión de imágenes tradicionales (RGB) y espectros ópticos para detectar y segmentar de forma precisa partículas de microplásticos suspendidas en matrices sólidas o líquidas mediante IA.
+-Resumen: Especifica los métodos estándar internacionales para determinar la turbidez del agua. Describe la metodología cuantitativa usando medidores ópticos de radiación (nefelómetros) para evaluar la concentración de partículas suspendidas basándose en cómo dispersan la luz.</p>
+
+<p align="justify">
+-Aporte a Yaku-Ñawi: Es el fundamento matemático y físico directo de nuestro Sensor de Turbidez. Esta norma justifica técnicamente por qué usas un sensor óptico infrarrojo (LED emisor y fototransistor receptor) para leer el nivel de opacidad del agua antes de buscar microplásticos, permitiéndote calibrar el algoritmo en tu XIAO ESP32-S3 bajo rangos estandarizados de turbidez.</p>
+
+### 📄 NORMA 2: ISO 16094-2 (Plásticos - Evaluación de la Degradabilidad de Plásticos en Agua)
+<p align="justify">
+-Resumen: Establece los criterios y métodos estandarizados para evaluar la degradación física, pérdida de masa y fragmentación de materiales plásticos cuando están expuestos a ambientes acuáticos fluviales o marinos en condiciones controladas.
 </p>
 <p align="justify">
--Aporte a Yaku-Ñawi: Justifica directamente el uso de la Cámara OV3660 combinada con los LEDs (UV-A y Blanco). Valida que para identificar plásticos no basta con una foto común, sino que la estimulación de iluminación dual (color y luz ultravioleta para fluorescencia) permite a un microcontrolador captar de mejor manera las texturas y formas de los contaminantes.
+-Aporte a Yaku-Ñawi: Nos brinda el marco teórico para la clasificación del problema. Justifica la necesidad del prototipo, ya que los plásticos no desaparecen en el agua, sino que según esta norma se fragmentan continuamente hasta convertirse en microplásticos de tamaños milimétricos. Sustenta por qué el diseño del prototipo debe integrar una Cámara OV3660 con iluminación LED (UV-A y Blanco) para reconocer ópticamente esas partículas fragmentadas que la norma detalla.
 </p>
 
 
-### 📄 NORMA 2: 
+### 📄 NORMA 3: ISO 7027-1 (Organización Internacional de Normalización)
 <p align="justify">
--Resumen: Propone un método para concentrar y detectar nano/microplásticos en muestras de agua líquida aprovechando un efecto fototérmico guiado por láser que genera burbujas capilares para capturar las partículas suspendidas.
+Resumen: Describe el método estandarizado para determinar la turbidez del agua mediante la medición cualitativa y cuantitativa de partículas suspendidas en una muestra líquida empleando métodos ópticos calibrados.
 </p>
+  
 <p align="justify">
--Aporte a Yaku-Ñawi: Te sirve como sustento de antecedentes del problema. Demuestra que las tecnologías tradicionales de laboratorio (como la espectroscopía Raman) son sumamente complejas y costosas, lo cual le da un valor increíble al enfoque de Yaku-Ñawi, que busca un análisis in situ, portátil y de bajo costo utilizando mediciones directas (turbidez y conductividad/TDS) en campo.
+Aporte a Yaku-Ñawi: Esta norma exige el uso de métodos ópticos calibrados para detectar impurezas, lo cual convalida directamente la integración y calibración matemática del Sensor de Turbidez analógico en los pines GPIO del ESP32-S3 para medir la claridad del agua de manera previa a la detección visual de los plásticos.
 </p>
