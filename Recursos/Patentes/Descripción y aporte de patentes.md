@@ -18,7 +18,7 @@
 </p>
 
 
-## 📄 PATENTE 1 (W02024066118A1): Detección mediante Fusión de Imágenes RGB y Hiperespectrales
+### 📄 PATENTE 1 (W02024066118A1): Detección mediante Fusión de Imágenes RGB y Hiperespectrales
 <p align="justify">
 -Resumen: Trata sobre un método de preprocesamiento, fusión de imágenes tradicionales (RGB) y espectros ópticos para detectar y segmentar de forma precisa partículas de microplásticos suspendidas en matrices sólidas o líquidas mediante IA.
 </p>
@@ -27,7 +27,7 @@
 </p>
 
 
-## 📄 PATENTE 2 (CN_120334208_A): Espectroscopía Raman de Doble Haz mediante Deposición por Burbujas
+### 📄 PATENTE 2 (CN_120334208_A): Espectroscopía Raman de Doble Haz mediante Deposición por Burbujas
 <p align="justify">
 -Resumen: Propone un método para concentrar y detectar nano/microplásticos en muestras de agua líquida aprovechando un efecto fototérmico guiado por láser que genera burbujas capilares para capturar las partículas suspendidas.
 </p>
@@ -36,7 +36,7 @@
 </p>
 
 
-## 📄 PATENTE 3 (US_2024/0125677_A1): Sistema electrónico de detección de tamaño de partícula chica
+### 📄 PATENTE 3 (US_2024/0125677_A1): Sistema electrónico de detección de tamaño de partícula chica
 <p align="justify">
 -Resumen: Describe un dispositivo electrónico y un medio de escaneo que optimiza el tiempo de exposición de los sensores y cámaras para calcular con alta precisión el ratio de microplásticos pequeños (como PP y PET) directamente en muestras de agua fluviales.
 </p>
@@ -45,7 +45,7 @@
 </p>
 
 
-## 📄 PATENTE 4 (002302-2024/DIN - Indecopi Perú): Equipo electrónico portátil para detección de microplásticos en agua
+### 📄 PATENTE 4 (002302-2024/DIN - Indecopi Perú): Equipo electrónico portátil para detección de microplásticos en agua
 <p align="justify">
 -Resumen: Esta es una patente nacional de modelo de utilidad para un equipo portátil (con dimensiones específicas de ~11.5 cm y peso menor a 3 kg) diseñado para realizar análisis in situ de contaminación fluvial, guardando los datos en un sistema y enviándolos a través de conexiones inalámbricas. Cuenta con filtros ópticos y una pantalla LCD para interactuar.
 </p>
