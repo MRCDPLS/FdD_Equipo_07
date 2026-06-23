@@ -1,41 +1,19 @@
 # 🫆 DESCRIPCIÓN Y APORTE DE PATENTES
 
 <p align="center">
-  <a href="https://docs.google.com/document/d/1l3ybWkPrAe1x9EHNxvqltnJuuAEBV3oi/edit" target="_blank">
-    <img src="https://img.shields.io/badge/Documento-Google%20Docs-green?style=for-the-badge&logo=google-docs">
+  <a href="https://worldwide.espacenet.com/patent/search?q=pn%3DWO2024066118A1" target="_blank">
+    <img src="https://img.shields.io/badge/PATENTE%201-Ver%20Enlace-blue?style=for-the-badge&logo=target" style="margin-right: 5px;">
   </a>
-  <a href="https://canva.link/wqtahsbx5hdpl2a" target="_blank">
-    <img src="https://img.shields.io/badge/Presentación-Canva-purple?style=for-the-badge&logo=canva">
+  <a href="https://worldwide.espacenet.com/patent/search?q=pn%3DCN120334208A" target="_blank">
+    <img src="https://img.shields.io/badge/PATENTE%202-Ver%20Enlace-blue?style=for-the-badge&logo=target" style="margin-right: 5px;">
+  </a>
+  <a href="https://worldwide.espacenet.com/patent/search?q=pn%3DUS2024125677A1" target="_blank">
+    <img src="https://img.shields.io/badge/PATENTE%203-Ver%20Enlace-blue?style=for-the-badge&logo=target" style="margin-right: 5px;">
+  </a>
+  <a href="T " target="_blank">
+    <img src="https://img.shields.io/badge/PATENTE%204-Ver%20Enlace-blue?style=for-the-badge&logo=target">
   </a>
 </p>
-
-<table align="center" style="border: none; border-collapse: collapse;">
-  <tr style="border: none;">
-    <td align="center" style="border: none; padding: 20px;">
-      <a href="TU_LINK_DE_LA_PATENTE_1" target="_blank">
-        <img src="https://img.shields.io/badge/Patente%201-Ver%20Enlace-blue?style=for-the-badge&logo=target" alt="Patente 1">
-      </a>
-    </td>
-    <td align="center" style="border: none; padding: 20px;">
-      <a href="TU_LINK_DE_LA_PATENTE_2" target="_blank">
-        <img src="https://img.shields.io/badge/Patente%202-Ver%20Enlace-blue?style=for-the-badge&logo=target" alt="Patente 2">
-      </a>
-    </td>
-  </tr>
-  
-  <tr style="border: none;">
-    <td align="center" style="border: none; padding: 20px;">
-      <a href="TU_LINK_DE_LA_PATENTE_3" target="_blank">
-        <img src="https://img.shields.io/badge/Patente%203-Ver%20Enlace-blue?style=for-the-badge&logo=target" alt="Patente 3">
-      </a>
-    </td>
-    <td align="center" style="border: none; padding: 20px;">
-      <a href="TU_LINK_DE_LA_PATENTE_4" target="_blank">
-        <img src="https://img.shields.io/badge/Patente%204-Ver%20Enlace-blue?style=for-the-badge&logo=target" alt="Patente 4">
-      </a>
-    </td>
-  </tr>
-</table>
 <p align="center">
   Accede al documento técnico y a la presentación del proyecto YAKU-ÑAWI.
 </p>
