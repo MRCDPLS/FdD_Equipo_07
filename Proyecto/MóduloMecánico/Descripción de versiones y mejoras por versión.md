@@ -15,6 +15,11 @@ evaluar la viabilidad de integración de todos los elementos dentro del una úni
 Tras la revisión realizada por los docentes, se identificaron aspectos susceptibles de mejora relacionados con la distribución interna de los componentes y la
 facilidad de ensamblaje.
 </p>
+<p align="center">
+  <img src="/Recursos/Imágenes/v11.png" width="70%">
+</p>
+
+<p align="center">Imagen 1. imagen 3D. </p>
 
 
 
@@ -53,12 +58,11 @@ Estas mejoras contribujeron a incrementar la funcionalidad del dispositivo y sir
 
 ## VERSIÓN 3 (V3): DISEÑO FINAL
 <p align="justify">
-La tercera versión corresponde al diseño final del módulo mecánico del proyecyto YAKU ÑAWI. En esta etapa se consolidó la distribución definitiva de todos los 
-componentes electrónicos, se verificó la compatibilidad dimensional de las piezas y se optimizaron las tolerancias necesarias para la impresión 3D. Además, se 
-incorporó la identificación visual del proyecto mediante el grabadodel nombre "YAKU ÑAWI" en la carcasa y se definieron las perforaciones necesarias para la 
-pantalla LCD y los sitemas de fijación.
-El resultado fue una estructura funcional que permite alojar de forma segura todos los componentes del sistema, facilitando tanto el ensamblaje como las futuras 
-tareas de mantenimiento y operación del dispositivo.
+La tercera versión corresponde al diseño final del módulo mecánico del proyecto YAKU ÑAWI. En esta etapa se consolidó la distribución definitiva de todos los componentes electrónicos y mecánicos, asegurando una adecuada integración entre cada uno de los elementos del sistema. Asimismo, se verificó la compatibilidad dimensional de las piezas diseñadas en Onshape y se realizaron los ajustes necesarios para optimizar su fabricación mediante impresión 3D.
+
+A partir de las observaciones realizadas durante las versiones anteriores, se perfeccionó la estructura general del dispositivo, mejorando la disposición interna de los componentes, los sistemas de fijación y el acceso a las distintas partes del módulo. Además, se incorporó la identificación visual del proyecto mediante el grabado del nombre “YAKU ÑAWI” en la carcasa y se definieron de manera definitiva las aberturas y perforaciones necesarias para la pantalla LCD, los sensores y los elementos de ensamblaje.
+
+Esta versión representa la solución final del diseño mecánico, logrando una estructura funcional, resistente y de fácil manufactura. El resultado fue un módulo capaz de alojar de forma segura todos los componentes del sistema, facilitando tanto el ensamblaje como las futuras tareas de operación, mantenimiento y validación del prototipo.
 </p>
 
 
