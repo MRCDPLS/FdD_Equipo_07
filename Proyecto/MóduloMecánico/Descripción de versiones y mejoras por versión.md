@@ -39,7 +39,7 @@ Adicionalmente, se rediseñó el soporte de las placas electrónicas para mejora
 Estas mejoras contribuyeron a incrementar la funcionalidad del dispositivo y sirvieron como base para el desarrollo de la versión final del módulo mecánico.
 </p>
 <p align="center">
-  <img src="/Recursos/Imágenes/v2.jpeg" width="70%">
+  <img src="/Recursos/Imágenes/versión final 3.jpeg" width="70%">
 </p>
 
 <p align="center">Imagen 1. imagen 3D versión 2.0. </p>
