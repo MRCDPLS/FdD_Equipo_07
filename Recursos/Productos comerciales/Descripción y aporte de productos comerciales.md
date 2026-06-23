@@ -1,4 +1,4 @@
-# 💼 TECNOLOGÍA EXISTENTE EN EL ÁMBITO COMERCIAL
+# 🔬 TECNOLOGÍA EXISTENTE EN EL ÁMBITO COMERCIAL
 
 <table width="100%">
   <!-- PRODUCTO 1: HORIBA -->
@@ -11,7 +11,7 @@
     <td width="30%" align="center" bgcolor="#f8f9fa">
       <br>
       <!-- Asegúrate de subir la imagen a tu repositorio y referenciar la ruta correcta aquí -->
-      <img src="RUTA_DE_TU_IMAGEN_1/image_d49cee.png" width="85%" alt="Microscopio Raman LabRAM HR Evolution"><br>
+      <img src="Recursos/Imágenes/maquinaria.jpg" width="85%" alt="Microscopio Raman LabRAM HR Evolution"><br>
       <sub><b>Figura 1:</b> Microscopio Raman LabRAM HR Evolution para análisis ambiental.</sub>
     </td>
     <td>
@@ -35,10 +35,8 @@
     </td>
   </tr>
 
-  <!-- ESPACIO DE SEPARACIÓN -->
   <tr><td colspan="2" style="padding: 10px; border: none;"></td></tr>
 
-  <!-- PRODUCTO 2: BRUKER -->
   <tr bgcolor="#34495e">
     <th colspan="2" align="center" style="color: white; padding: 10px;">
       <h3>2. LUMOS II FT-IR Microscope — Bruker Corporation</h3>
@@ -47,8 +45,7 @@
   <tr>
     <td width="30%" align="center" bgcolor="#f8f9fa">
       <br>
-      <!-- Asegúrate de subir la imagen a tu repositorio y referenciar la ruta correcta aquí -->
-      <img src="RUTA_DE_TU_IMAGEN_2/image_d49dcd.png" width="85%" alt="Sistema FT-IR LUMOS II"><br>
+      <img src="Recursos/Imágenes/maqinaria 2.jpgg" width="85%" alt="Sistema FT-IR LUMOS II"><br>
       <sub><b>Figura 2:</b> Sistema FT-IR LUMOS II para análisis de microplásticos.</sub>
     </td>
     <td>
