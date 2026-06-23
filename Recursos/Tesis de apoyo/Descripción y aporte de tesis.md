@@ -45,8 +45,8 @@
     <td align="justify" bgcolor="#f4f6f7">
       <ul>
         <li><b>Sustento del Procesamiento Digital:</b> Valida directamente la viabilidad de utilizar Visión Computacional e Inteligencia Artificial para clasificar microplásticos en lugar de depender de lecturas subjetivas de un operario.</li>
-        <li><b>Criterios de Programación:</b> Al demostrar que una red neuronal puede diferenciar contaminantes por su <i>forma, textura y color</i>, te da el fundamento de diseño para estructurar los algoritmos de filtrado de imagen dentro de tu microcontrolador <b>XIAO ESP32-S3</b>.</li>
-        <li><b>Optimización de Tiempos:</b> Justifica la meta de tu prototipo: crear un dispositivo electrónico portátil capaz de agilizar el proceso de descarte de plásticos directamente <i>in situ</i> en el campo, inspirándose en las métricas de eficiencia computacional que propone la tesis.</li>
+        <li><b>Criterios de Programación:</b> Al demostrar que una red neuronal puede diferenciar contaminantes por su <i>forma, textura y color</i>, te da el fundamento de diseño para estructurar los algoritmos de filtrado de imagen dentro del microcontrolador <b>XIAO ESP32-S3</b>.</li>
+        <li><b>Optimización de Tiempos:</b> Crear un dispositivo electrónico portátil capaz de agilizar el proceso de descarte de plásticos directamente <i>in situ</i> en el campo, inspirándose en las métricas de eficiencia computacional que propone la tesis.</li>
       </ul>
     </td>
   </tr>
