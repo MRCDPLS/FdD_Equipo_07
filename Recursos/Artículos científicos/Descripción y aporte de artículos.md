@@ -54,7 +54,7 @@ Este artículo influyó directamente en una de las decisiones tecnológicas más
 
 ---
 
-### 📷 Artículo 5 — Machine Learning para identificación avanzada
+### Artículo 5 — Machine Learning para identificación avanzada
 
 **Tian X, Beén F, Bäuerlein PS.** *Quantum cascade laser imaging (LDIR) and machine learning for the identification of environmentally exposed microplastics and polymers*. Environmental Research. 2022.
 
@@ -62,7 +62,7 @@ Este estudio presentó un enfoque innovador para la identificación de microplá
 
 ---
 
-### 🇵🇪 Artículo 6 — Microplásticos en playas del Perú
+### Artículo 6 — Microplásticos en playas del Perú
 
 **Purca S, Henostroza A.** *Presencia de microplásticos en cuatro playas arenosas de Perú*. Revista Peruana de Biología. 2017.
 
