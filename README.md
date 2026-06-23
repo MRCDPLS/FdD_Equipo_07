@@ -43,7 +43,7 @@ Frente a este escenario, el presente proyecto propone determinar la presencia de
 ## ⚠️ Problemática 
 ### Problemática a Nivel Mundial
 <p align="justify">
-La crisis de los microplásticos está impulsada principalmente por polímeros de alta producción como el polipropileno (PP) y el poliestireno expandido (ESP). El polipropileno representa aproximadamente el 21 % de la producción total de plásticos no fibrosos, siendo ampliamente utilizado en envases, empaques y materiales industriales, lo que incrementa su liberación al ambiente tras su disposición final inadecuada (6). Por su parte, el PET constituye un material fundamental en la industria de bebidas y textiles sintéticos, donde domina la producción de fibras artificiales utilizadas globalmente (6,7).
+La crisis de los microplásticos está impulsada principalmente por polímeros de alta producción como el polipropileno (PP) y el EPS (poliestireno expandido). El polipropileno representa aproximadamente el 21 % de la producción total de plásticos no fibrosos, siendo ampliamente utilizado en envases, empaques y materiales industriales, lo que incrementa su liberación al ambiente tras su disposición final inadecuada (6). Por su parte, el PET constituye un material fundamental en la industria de bebidas y textiles sintéticos, donde domina la producción de fibras artificiales utilizadas globalmente (6,7).
 </p>
 
 #### Impactos y comportamiento:
@@ -54,7 +54,7 @@ La crisis de los microplásticos está impulsada principalmente por polímeros d
 
 * Comportamiento en el agua: 
   <p align="justify">
-  El PP posee una densidad aproximada de 0.94 g/mL, característica que le permite flotar y dispersarse ampliamente en la superficie marina. En contraste, el PET presenta mayor densidad, favoreciendo su sedimentación y acumulación en fondos acuáticos (7,8).
+  El EPS posee una densidad aproximada de 0.94 g/mL, característica que le permite flotar y dispersarse ampliamente en la superficie marina. En contraste, el PET presenta mayor densidad, favoreciendo su sedimentación y acumulación en fondos acuáticos (7,8).
   </p>
 
 * Presencia en humanos: 
