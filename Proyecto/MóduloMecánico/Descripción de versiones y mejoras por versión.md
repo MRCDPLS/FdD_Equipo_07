@@ -20,13 +20,13 @@ A partir de estas observaciones, se planteó una nueva propuesta de diseño para
   <img src="/Recursos/Imágenes/v11.jpeg" width="70%">
 </p>
 
-<p align="center">Imagen 1. imagen 3D versión 1.0. </p>
+<p align="center">Imagen 1.imagen 3D versión 1.0</p>
 
 <p align="center">
   <img src="/Recursos/Imágenes/versión 1.jpeg" width="70%">
 </p>
 
-<p align="center">Imagen 1. imagen 3D versión 1.1. </p>
+<p align="center">Imagen 1.imagen 3D versión 1.1</p>
 
 ## VERSIÓN 2 (V2): REDISEÑO Y OPTIMIZACIÓN
 <p align="justify">
