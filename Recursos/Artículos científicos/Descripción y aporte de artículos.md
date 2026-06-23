@@ -1,4 +1,4 @@
-# 📄 ARTÍCULOS CIENTÍFICOS DE REFERENCIA
+# ARTÍCULOS CIENTÍFICOS DE REFERENCIA
 
 <p align="center">
   <a href="https://doi.org/10.1126/sciadv.1700782" target="_blank">
