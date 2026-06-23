@@ -16,7 +16,7 @@ Tras la revisión realizada por los docentes, se identificaron aspectos suscepti
 facilidad de ensamblaje.
 </p>
 <p align="center">
-  <img src="/Recursos/Imágenes/v11.png" width="70%">
+  <img src="/Recursos/Imágenes/v11.jpeg" width="70%">
 </p>
 
 <p align="center">Imagen 1. imagen 3D. </p>
