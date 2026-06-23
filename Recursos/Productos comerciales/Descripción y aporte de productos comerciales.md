@@ -11,7 +11,7 @@
     <td width="30%" align="center" bgcolor="#f8f9fa">
       <br>
       <!-- Asegúrate de subir la imagen a tu repositorio y referenciar la ruta correcta aquí -->
-      <img src="Recursos/Imágenes/maquinaria.jpg" width="85%" alt="Microscopio Raman LabRAM HR Evolution"><br>
+      <img src="Recursos/Imágenes/maquinaria.png" width="85%" alt="Microscopio Raman LabRAM HR Evolution"><br>
       <sub><b>Figura 1:</b> Microscopio Raman LabRAM HR Evolution para análisis ambiental.</sub>
     </td>
     <td>
@@ -45,7 +45,7 @@
   <tr>
     <td width="30%" align="center" bgcolor="#f8f9fa">
       <br>
-      <img src="Recursos/Imágenes/maqinaria 2.jpgg" width="85%" alt="Sistema FT-IR LUMOS II"><br>
+      <img src="Recursos/Imágenes/maqinaria 2.png" width="85%" alt="Sistema FT-IR LUMOS II"><br>
       <sub><b>Figura 2:</b> Sistema FT-IR LUMOS II para análisis de microplásticos.</sub>
     </td>
     <td>
