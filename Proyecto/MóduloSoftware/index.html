@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yaku-Ñawi · Monitoreo de microplásticos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg-ink:#0c2426;
+    --bg-panel:#10312f;
+    --bg-panel-2:#143b38;
+    --border:#1f4a47;
+    --teal:#5fcbc0;
+    --teal-dim:#2f6b66;
+    --sand:#e3b23c;
+    --coral:#e0623b;
+    --text-hi:#f2f4ef;
+    --text-mid:#bcd1cd;
+    --text-dim:#7fa19c;
+    --danger:#ff6b5b;
+    --ok:#7fe0b8;
+    --radius:14px;
+    --mono:'IBM Plex Mono', monospace;
+    --sans:'IBM Plex Sans', sans-serif;
+    --display:'Space Grotesk', sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:
+      radial-gradient(circle at 20% -10%, rgba(95,203,192,0.08), transparent 45%),
+      radial-gradient(circle at 100% 0%, rgba(224,98,59,0.06), transparent 40%),
+      var(--bg-ink);
+    color:var(--text-hi);
+    font-family:var(--sans);
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;}
+  .wrap{max-width:1180px;margin:0 auto;padding:28px 20px 60px;}
+
+  /* ---------- header ---------- */
+  header.top{
+    display:flex;justify-content:space-between;align-items:flex-start;
+    gap:20px;flex-wrap:wrap;
+    border-bottom:1px solid var(--border);
+    padding-bottom:20px;margin-bottom:30px;
+  }
+  .brand{display:flex;align-items:center;gap:14px;}
+  .brand svg{width:46px;height:46px;flex-shrink:0;}
+  .brand h1{font-family:var(--display);font-size:1.55rem;margin:0;letter-spacing:0.01em;font-weight:700;}
+  .brand p{margin:2px 0 0;color:var(--text-dim);font-size:0.8rem;letter-spacing:0.04em;text-transform:uppercase;}
+  .status-block{display:flex;align-items:center;gap:16px;font-family:var(--mono);font-size:0.78rem;color:var(--text-mid);flex-wrap:wrap;}
+  .pill{
+    display:inline-flex;align-items:center;gap:7px;
+    background:var(--bg-panel);border:1px solid var(--border);
+    border-radius:999px;padding:6px 14px;font-size:0.78rem;font-family:var(--mono);
+  }
+  .pill .dot{width:7px;height:7px;border-radius:50%;background:var(--ok);box-shadow:0 0 8px var(--ok);}
+  .pill.live .dot{animation:pulse 2s infinite;}
+  .pill.offline .dot{background:var(--danger);box-shadow:0 0 8px var(--danger);animation:none;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.35;}}
+  #refresh-btn{
+    background:var(--teal-dim);border:1px solid var(--teal);color:var(--text-hi);
+    font-family:var(--mono);font-size:0.75rem;padding:7px 13px;border-radius:8px;
+    cursor:pointer;transition:background .2s;
+  }
+  #refresh-btn:hover{background:var(--teal);color:#0c2426;}
+
+  /* ---------- banner de conexión ---------- */
+  .conn-banner{
+    display:none;align-items:center;gap:12px;
+    background:rgba(255,107,91,0.12);border:1px solid rgba(255,107,91,0.35);
+    border-radius:10px;padding:12px 18px;margin-bottom:22px;
+    font-family:var(--mono);font-size:0.82rem;color:var(--danger);
+  }
+  .conn-banner.show{display:flex;}
+  .conn-banner code{background:rgba(255,255,255,0.07);padding:2px 7px;border-radius:5px;font-size:0.8rem;}
+
+  /* ---------- hero ---------- */
+  .hero{
+    display:grid;grid-template-columns:300px 1fr;gap:32px;
+    background:linear-gradient(160deg, var(--bg-panel-2), var(--bg-panel));
+    border:1px solid var(--border);border-radius:var(--radius);
+    padding:32px;margin-bottom:28px;
+    position:relative;overflow:hidden;
+  }
+  .hero::before{
+    content:"";position:absolute;inset:0;
+    background:radial-gradient(circle at 15% 20%, rgba(95,203,192,0.10), transparent 55%);
+    pointer-events:none;
+  }
+  .eye-wrap{display:flex;flex-direction:column;align-items:center;gap:14px;}
+  .eye-wrap .eye-caption{font-family:var(--mono);font-size:0.72rem;color:var(--text-dim);text-align:center;letter-spacing:0.04em;}
+  .eye-status{font-family:var(--display);font-weight:600;font-size:1rem;letter-spacing:0.03em;}
+  .hero-right{display:flex;flex-direction:column;justify-content:center;gap:18px;}
+  .hero-right h2{font-family:var(--display);font-size:1.6rem;margin:0;line-height:1.25;}
+  .hero-right p.lede{color:var(--text-mid);max-width:520px;margin:0;font-size:0.95rem;line-height:1.55;}
+  .hero-metrics{display:flex;gap:28px;flex-wrap:wrap;margin-top:6px;}
+  .hero-metric .v{font-family:var(--mono);font-size:1.7rem;font-weight:600;}
+  .hero-metric .l{font-size:0.72rem;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.05em;}
+  .hero-metric.pet .v{color:var(--sand);}
+  .hero-metric.eps .v{color:var(--coral);}
+  .hero-metric.conf .v{color:var(--teal);}
+
+  /* ---------- grid ---------- */
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-bottom:22px;}
+  .card{background:var(--bg-panel);border:1px solid var(--border);border-radius:var(--radius);padding:24px;}
+  .card h3{
+    margin:0 0 4px;font-family:var(--display);font-size:1.05rem;font-weight:600;
+    display:flex;align-items:center;justify-content:space-between;gap:10px;
+  }
+  .card h3 .badge{
+    font-family:var(--mono);font-size:0.68rem;border-radius:6px;padding:3px 8px;
+    border:1px solid var(--border);color:var(--text-dim);text-transform:uppercase;letter-spacing:.04em;
+  }
+  .card .sub{color:var(--text-dim);font-size:0.78rem;margin-bottom:18px;}
+  .readout{display:flex;align-items:baseline;gap:8px;margin-bottom:14px;}
+  .readout .num{font-family:var(--mono);font-size:2.6rem;font-weight:600;}
+  .readout .unit{font-family:var(--mono);font-size:0.95rem;color:var(--text-dim);}
+  .range-bar{position:relative;height:10px;border-radius:6px;background:var(--bg-ink);border:1px solid var(--border);margin-bottom:8px;overflow:hidden;}
+  .range-bar .fill{position:absolute;top:0;left:0;height:100%;border-radius:6px;transition:width .6s ease;}
+  .range-labels{display:flex;justify-content:space-between;font-family:var(--mono);font-size:0.68rem;color:var(--text-dim);}
+  .range-state{display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:0.78rem;margin-top:10px;padding:5px 10px;border-radius:7px;border:1px solid var(--border);}
+  canvas.spark{width:100%;height:54px;display:block;margin-top:14px;}
+
+  /* clasificación / detección */
+  .classif-card{grid-column:1/-1;}
+  .classif-body{display:grid;grid-template-columns:200px 1fr;gap:30px;align-items:center;}
+  .donut-wrap{display:flex;flex-direction:column;align-items:center;gap:8px;}
+  .donut-wrap .donut-label{font-family:var(--mono);font-size:0.68rem;color:var(--text-dim);}
+  .legend{display:flex;flex-direction:column;gap:14px;}
+  .legend-row{display:flex;align-items:center;gap:12px;}
+  .legend-row .swatch{width:12px;height:12px;border-radius:3px;flex-shrink:0;}
+  .legend-row .name{font-weight:600;font-size:0.92rem;min-width:54px;}
+  .legend-row .bar{flex:1;height:8px;background:var(--bg-ink);border-radius:5px;overflow:hidden;border:1px solid var(--border);}
+  .legend-row .bar span{display:block;height:100%;border-radius:5px;transition:width .6s ease;}
+  .legend-row .pct{font-family:var(--mono);font-size:0.92rem;min-width:48px;text-align:right;}
+
+  /* stream en vivo del ESP32 */
+  .cam-panel{
+    display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:18px;
+  }
+  .cam-col{display:flex;flex-direction:column;gap:10px;}
+  .cam-col label{font-family:var(--mono);font-size:0.72rem;color:var(--text-dim);letter-spacing:.04em;}
+
+  /* Contenedor del stream MJPEG */
+  .stream-wrap{
+    position:relative;width:100%;aspect-ratio:4/3;
+    background:var(--bg-ink);border:1px solid var(--border);border-radius:10px;
+    overflow:hidden;
+  }
+  #esp32-stream{
+    width:100%;height:100%;object-fit:cover;display:block;
+  }
+  /* Badge LIVE superpuesto */
+  .live-badge{
+    position:absolute;top:10px;left:10px;
+    display:inline-flex;align-items:center;gap:6px;
+    background:rgba(12,36,38,0.80);backdrop-filter:blur(4px);
+    border:1px solid var(--border);border-radius:999px;
+    padding:4px 11px;font-family:var(--mono);font-size:0.68rem;color:var(--ok);
+    letter-spacing:.04em;
+  }
+  .live-badge .dot{width:6px;height:6px;border-radius:50%;background:var(--ok);animation:pulse 1.5s infinite;}
+  /* Latencia superpuesta abajo derecha */
+  .stream-lat{
+    position:absolute;bottom:10px;right:10px;
+    background:rgba(12,36,38,0.80);backdrop-filter:blur(4px);
+    border:1px solid var(--border);border-radius:7px;
+    padding:3px 9px;font-family:var(--mono);font-size:0.68rem;color:var(--text-dim);
+  }
+  .stream-lat span{color:var(--teal);}
+  .detect-list{display:flex;flex-direction:column;gap:6px;max-height:120px;overflow-y:auto;font-family:var(--mono);font-size:0.72rem;color:var(--text-mid);}
+  .detect-list .row{display:flex;justify-content:space-between;border-bottom:1px solid var(--border);padding:4px 0;}
+  .detect-empty{font-family:var(--mono);font-size:0.72rem;color:var(--text-dim);}
+
+  /* latencia */
+  .latency-row{display:flex;gap:18px;flex-wrap:wrap;margin-top:10px;}
+  .latency-item{font-family:var(--mono);font-size:0.74rem;color:var(--text-dim);}
+  .latency-item span{color:var(--teal);}
+
+  table.hist{width:100%;border-collapse:collapse;margin-top:18px;font-size:0.85rem;}
+  table.hist th,table.hist td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--border);}
+  table.hist th{color:var(--text-dim);font-family:var(--mono);font-size:0.68rem;text-transform:uppercase;letter-spacing:.04em;}
+  table.hist td{font-family:var(--mono);font-size:0.82rem;}
+  table.hist tr:last-child td{border-bottom:none;}
+  .tag{display:inline-block;padding:2px 8px;border-radius:5px;font-size:0.72rem;font-family:var(--mono);}
+  .tag.pet{background:rgba(227,178,60,0.15);color:var(--sand);border:1px solid rgba(227,178,60,0.4);}
+  .tag.eps{background:rgba(224,98,59,0.15);color:var(--coral);border:1px solid rgba(224,98,59,0.4);}
+
+  footer{
+    margin-top:30px;padding-top:18px;border-top:1px solid var(--border);
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
+    color:var(--text-dim);font-family:var(--mono);font-size:0.72rem;
+  }
+
+  @media(max-width:860px){
+    .hero{grid-template-columns:1fr;padding:24px;}
+    .grid{grid-template-columns:1fr;}
+    .classif-body{grid-template-columns:1fr;}
+    .cam-panel{grid-template-columns:1fr;}
+    .hero-metrics{gap:20px;}
+  }
+  @media(prefers-reduced-motion:reduce){
+    .pill.live .dot{animation:none;}
+    .range-bar .fill,.legend-row .bar span{transition:none;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div class="brand">
+      <svg viewBox="0 0 48 48" fill="none">
+        <circle cx="24" cy="24" r="22" stroke="#5fcbc0" stroke-width="1.5" opacity="0.5"/>
+        <path d="M4 24c6-12 14-18 20-18s14 6 20 18c-6 12-14 18-20 18S10 36 4 24z" stroke="#5fcbc0" stroke-width="1.6"/>
+        <circle cx="24" cy="24" r="7" fill="#5fcbc0" opacity="0.85"/>
+        <circle cx="24" cy="24" r="2.4" fill="#0c2426"/>
+      </svg>
+      <div>
+        <h1>Yaku-Ñawi</h1>
+        <p>Ojo del agua · monitoreo de microplásticos</p>
+      </div>
+    </div>
+    <div class="status-block">
+      <span class="pill live" id="conn-pill"><span class="dot"></span> <span id="conn-label">Conectando…</span></span>
+      <span>Última lectura: <span id="last-update">--:--:--</span></span>
+      <span id="poll-interval-label" style="font-size:0.72rem;color:var(--text-dim);">Polling: 3s</span>
+      <button id="refresh-btn">Actualizar ahora</button>
+    </div>
+  </header>
+
+  <!-- Banner de error de conexión -->
+  <div class="conn-banner" id="conn-banner">
+    ⚠ Sin datos del servidor Flask. Asegúrate de que <code>app.py</code> está corriendo
+    y que el ESP32-S3 hace POST a <code>http://10.108.103.206:5000</code>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="eye-wrap">
+      <svg id="iris-gauge" viewBox="0 0 220 220" width="220" height="220"></svg>
+      <div class="eye-status" id="eye-status">Esperando datos…</div>
+      <div class="eye-caption">Anillo externo: turbidez · Anillo interno: TDS</div>
+    </div>
+    <div class="hero-right">
+      <h2>Estado del cuerpo de agua monitoreado</h2>
+      <p class="lede">Yaku-Ñawi combina sensores de turbidez y TDS con la cámara OV2640 del
+      <strong>ESP32-S3 Sense XIAO</strong> para detectar y clasificar microplásticos PET y EPS
+      en tiempo real mediante <strong>YOLOv8</strong> corriendo en este servidor.</p>
+      <div class="hero-metrics">
+        <div class="hero-metric pet"><div class="v" id="hero-pet">—%</div><div class="l">PET detectado</div></div>
+        <div class="hero-metric eps"><div class="v" id="hero-eps">—%</div><div class="l">EPS detectado</div></div>
+        <div class="hero-metric conf"><div class="v" id="hero-conf">—%</div><div class="l">Confianza del modelo</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SENSORES -->
+  <section class="grid">
+    <div class="card">
+      <h3>Turbidez <span class="badge">SEN0189</span></h3>
+      <div class="sub">Material en suspensión · datos enviados por el ESP32</div>
+      <div class="readout"><span class="num" id="turb-value">—</span><span class="unit">NTU</span></div>
+      <div class="range-bar"><div class="fill" id="turb-fill"></div></div>
+      <div class="range-labels"><span>0</span><span>Normal ≤ 50</span><span>100+</span></div>
+      <div class="range-state" id="turb-state">—</div>
+      <canvas class="spark" id="turb-spark"></canvas>
+    </div>
+
+    <div class="card">
+      <h3>TDS / Conductividad <span class="badge">TDS V1.0</span></h3>
+      <div class="sub">Sólidos disueltos · datos enviados por el ESP32</div>
+      <div class="readout"><span class="num" id="cond-value">—</span><span class="unit">µS/cm</span></div>
+      <div class="range-bar"><div class="fill" id="cond-fill"></div></div>
+      <div class="range-labels"><span>0</span><span>Normal ≤ 800</span><span>1500+</span></div>
+      <div class="range-state" id="cond-state">—</div>
+      <canvas class="spark" id="cond-spark"></canvas>
+    </div>
+
+    <!-- DETECCIÓN YOLO -->
+    <div class="card classif-card">
+      <h3>Detección YOLOv8 · Imagen del ESP32-S3
+        <span class="badge" id="model-badge">YOLOv8 · esperando…</span>
+      </h3>
+      <div class="sub">
+        El ESP32-S3 XIAO envía frames vía WiFi → Flask corre la inferencia → el dashboard se actualiza
+      </div>
+
+      <!-- Imagen en vivo + lista de objetos -->
+      <div class="cam-panel">
+        <div class="cam-col">
+          <label>STREAM EN VIVO · OV3660 via ESP32-S3</label>
+          <div class="stream-wrap">
+            <!-- MJPEG generado por Flask /video_feed — YOLOv8 anota cada frame -->
+            <img id="esp32-stream"
+              src="http://10.108.103.248:81/stream"
+              alt="Stream en vivo del ESP32-S3"
+              style="width:100%; height:100%; object-fit:cover;"
+              onerror="setTimeout(() => {
+              this.src='http://10.108.103.248:81/stream?t=' + Date.now();}, 3000)">
+            <div class="live-badge"><span class="dot"></span>EN VIVO</div>
+            <div class="stream-lat">Latencia: <span id="latency-val">—</span> ms</div>
+          </div>
+          <div class="latency-row">
+            <div class="latency-item">Objetos detectados: <span id="obj-count">0</span></div>
+            <div class="latency-item">Último frame: <span id="frame-ts">—</span></div>
+          </div>
+        </div>
+        <div class="cam-col">
+          <label>OBJETOS DETECTADOS (ÚLTIMA INFERENCIA)</label>
+          <div class="detect-list" id="detect-list">
+            <div class="detect-empty">Esperando frames del ESP32…</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Donut + leyenda -->
+      <div class="classif-body">
+        <div class="donut-wrap">
+          <svg id="donut" viewBox="0 0 120 120" width="180" height="180"></svg>
+          <div class="donut-label" id="donut-total">0 partículas</div>
+        </div>
+        <div class="legend">
+          <div class="legend-row">
+            <span class="swatch" style="background:var(--sand)"></span>
+            <span class="name">PET</span>
+            <span class="bar"><span id="pet-bar" style="background:var(--sand);width:0%"></span></span>
+            <span class="pct" id="pet-pct">0%</span>
+          </div>
+          <div class="legend-row">
+            <span class="swatch" style="background:var(--coral)"></span>
+            <span class="name">EPS</span>
+            <span class="bar"><span id="eps-bar" style="background:var(--coral);width:0%"></span></span>
+            <span class="pct" id="eps-pct">0%</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tabla historial -->
+      <table class="hist">
+        <thead>
+          <tr>
+            <th>Hora</th><th>Tipo dominante</th>
+            <th>PET %</th><th>EPS %</th>
+            <th>Confianza</th><th>Turbidez</th><th>TDS</th>
+          </tr>
+        </thead>
+        <tbody id="hist-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <span>Yaku-Ñawi · UPCH, Facultad de Ciencias e Ingeniería</span>
+    <span>ESP32-S3 XIAO → POST /frame → YOLOv8 → Stream MJPEG + Dashboard</span>
+  </footer>
+</div>
+
+<script>
+/* ================================================================
+   Yaku-Ñawi · Dashboard JS
+   Polling al backend Flask cada POLL_MS milisegundos.
+   El ESP32-S3 envía datos a Flask vía WiFi; el dashboard los lee.
+   ================================================================ */
+
+const POLL_MS = 3000;   // frecuencia de actualización del dashboard
+let consecutiveErrors = 0;
+
+const state = {
+  turbSeries: [],
+  condSeries: [],
+  maxPoints: 24,
+  lastImageOk: false
+};
+
+const RANGES = {
+  turb: { normalMax: 50, highMax: 100, unit: 'NTU' },
+  cond: { normalMax: 800, highMax: 1500, unit: 'µS/cm' }
+};
+
+/* ── helpers ─────────────────────────────────────────────── */
+function clamp(v, min, max) { return Math.max(min, Math.min(max, v)); }
+
+function classify(value, normalMax, highMax) {
+  if (value <= normalMax) return { label: 'Normal', color: 'var(--ok)' };
+  if (value <= highMax)   return { label: 'Elevado', color: 'var(--sand)' };
+  return { label: 'Alto · revisar', color: 'var(--danger)' };
+}
+
+/* ── polling principal ───────────────────────────────────── */
+async function fetchDatos() {
+  try {
+    const res = await fetch('/datos', { cache: 'no-store' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const json = await res.json();
+    consecutiveErrors = 0;
+    setOnline(true);
+    updateDashboard(json.ultimo, json.historial || []);
+  } catch (err) {
+    consecutiveErrors++;
+    if (consecutiveErrors >= 2) setOnline(false);
+    console.warn('[Yaku-Ñawi] Error al obtener datos:', err.message);
+  }
+}
+
+function setOnline(ok) {
+  const pill   = document.getElementById('conn-pill');
+  const label  = document.getElementById('conn-label');
+  const banner = document.getElementById('conn-banner');
+  if (ok) {
+    pill.className   = 'pill live';
+    label.textContent = 'ESP32 en línea';
+    banner.classList.remove('show');
+  } else {
+    pill.className   = 'pill offline';
+    label.textContent = 'Sin conexión';
+    banner.classList.add('show');
+  }
+}
+
+/* ── actualizar todo el dashboard con datos reales ───────── */
+function updateDashboard(d, historial) {
+  if (!d || d.turbidez === undefined) return;
+
+  // series temporales
+  state.turbSeries.push(d.turbidez);
+  state.condSeries.push(d.tds);
+  state.turbSeries = state.turbSeries.slice(-state.maxPoints);
+  state.condSeries = state.condSeries.slice(-state.maxPoints);
+
+  // sensores
+  renderSensor('turb', d.turbidez, RANGES.turb);
+  renderSensor('cond', d.tds, RANGES.cond);
+  renderIris(d.turbidez, d.tds);
+
+  // clasificación
+  const pet = d.pet || 0;
+  const eps = d.eps || 0;
+  document.getElementById('pet-pct').textContent = pet + '%';
+  document.getElementById('eps-pct').textContent = eps + '%';
+  document.getElementById('pet-bar').style.width = pet + '%';
+  document.getElementById('eps-bar').style.width = eps + '%';
+  document.getElementById('donut-total').textContent = d.cantidad + ' partículas / muestra';
+  renderDonut(pet, eps);
+
+  // hero
+  document.getElementById('hero-pet').textContent  = pet + '%';
+  document.getElementById('hero-eps').textContent  = eps + '%';
+  document.getElementById('hero-conf').textContent = (d.confianza || 0) + '%';
+
+  // badge modelo
+  document.getElementById('model-badge').textContent =
+    'YOLOv8 · ' + (d.modelo || 'best.pt');
+
+  // estado general
+  const overallBad = d.turbidez > RANGES.turb.normalMax || d.tds > RANGES.cond.normalMax;
+  const eyeEl = document.getElementById('eye-status');
+  eyeEl.textContent = overallBad ? 'Atención requerida' : 'Calidad aceptable';
+  eyeEl.style.color = overallBad ? 'var(--danger)' : 'var(--ok)';
+
+  // stream en vivo: el <img src="/video_feed"> se actualiza solo (MJPEG).
+  // Solo actualizamos los metadatos que vienen del polling /datos.
+  document.getElementById('frame-ts').textContent = d.timestamp || '—';
+
+  // objetos detectados
+  const detectList = document.getElementById('detect-list');
+  if (d.objetos && d.objetos.length > 0) {
+    detectList.innerHTML = d.objetos.map(o =>
+      `<div class="row"><span>${o}</span><span class="tag ${o.toLowerCase().includes('pet') ? 'pet' : 'eps'}">${o.toLowerCase().includes('pet') ? 'PET' : 'EPS'}</span></div>`
+    ).join('');
+  } else {
+    detectList.innerHTML = '<div class="detect-empty">Sin detecciones en el último frame</div>';
+  }
+
+  // latencia
+  document.getElementById('latency-val').textContent  = d.latencia_ms ?? '—';
+  document.getElementById('obj-count').textContent    = d.cantidad ?? 0;
+
+  // sparklines
+  drawSpark('turb-spark', state.turbSeries, '#5fcbc0');
+  drawSpark('cond-spark', state.condSeries, '#5fcbc0');
+
+  // timestamp
+  document.getElementById('last-update').textContent =
+    new Date().toLocaleTimeString('es-PE');
+
+  // tabla historial
+  renderHistory(historial);
+}
+
+/* ── render sensores ─────────────────────────────────────── */
+function renderSensor(prefix, value, range) {
+  document.getElementById(prefix + '-value').textContent = value.toFixed(1);
+  const pct    = clamp((value / range.highMax) * 100, 0, 100);
+  const fill   = document.getElementById(prefix + '-fill');
+  const state_ = classify(value, range.normalMax, range.highMax);
+  fill.style.width      = pct + '%';
+  fill.style.background = state_.color;
+  const stateEl = document.getElementById(prefix + '-state');
+  stateEl.textContent    = state_.label + ' · ' + value.toFixed(1) + ' ' + range.unit;
+  stateEl.style.borderColor = state_.color;
+  stateEl.style.color       = state_.color;
+}
+
+/* ── sparkline ───────────────────────────────────────────── */
+function drawSpark(canvasId, series, color) {
+  const c   = document.getElementById(canvasId);
+  const dpr = window.devicePixelRatio || 1;
+  const w   = c.clientWidth, h = c.clientHeight;
+  c.width   = w * dpr; c.height = h * dpr;
+  const ctx = c.getContext('2d');
+  ctx.scale(dpr, dpr);
+  ctx.clearRect(0, 0, w, h);
+  if (series.length < 2) return;
+  const min = Math.min(...series), max = Math.max(...series);
+  const span = (max - min) || 1;
+  ctx.beginPath();
+  series.forEach((v, i) => {
+    const x = (i / (series.length - 1)) * w;
+    const y = h - ((v - min) / span) * (h - 8) - 4;
+    if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+  });
+  ctx.strokeStyle = color;
+  ctx.lineWidth   = 2;
+  ctx.stroke();
+  const lastX = w, lastY = h - ((series[series.length - 1] - min) / span) * (h - 8) - 4;
+  ctx.beginPath();
+  ctx.arc(lastX - 2, lastY, 3, 0, Math.PI * 2);
+  ctx.fillStyle = color;
+  ctx.fill();
+}
+
+/* ── iris gauge ──────────────────────────────────────────── */
+function describeArc(cx, cy, r, startAngle, endAngle) {
+  const toRad = a => (a - 90) * Math.PI / 180;
+  const x1 = cx + r * Math.cos(toRad(startAngle));
+  const y1 = cy + r * Math.sin(toRad(startAngle));
+  const x2 = cx + r * Math.cos(toRad(endAngle));
+  const y2 = cy + r * Math.sin(toRad(endAngle));
+  const largeArc = (endAngle - startAngle) > 180 ? 1 : 0;
+  return `M ${x1} ${y1} A ${r} ${r} 0 ${largeArc} 1 ${x2} ${y2}`;
+}
+
+function renderIris(turb, cond) {
+  const svg = document.getElementById('iris-gauge');
+  const cx = 110, cy = 110;
+  const turbPct  = clamp(turb / RANGES.turb.highMax, 0, 1);
+  const condPct  = clamp(cond / RANGES.cond.highMax, 0, 1);
+  const turbColor = classify(turb, RANGES.turb.normalMax, RANGES.turb.highMax).color;
+  const condColor = classify(cond, RANGES.cond.normalMax, RANGES.cond.highMax).color;
+  const sweepOuter = 300 * turbPct;
+  const sweepInner = 300 * condPct;
+  svg.innerHTML = `
+    <circle cx="${cx}" cy="${cy}" r="95" fill="none" stroke="#1f4a47" stroke-width="14"/>
+    <path d="${describeArc(cx,cy,95,-150,-150+sweepOuter)}" fill="none" stroke="${turbColor}" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="${cx}" cy="${cy}" r="68" fill="none" stroke="#1f4a47" stroke-width="12"/>
+    <path d="${describeArc(cx,cy,68,-150,-150+sweepInner)}" fill="none" stroke="${condColor}" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="${cx}" cy="${cy}" r="40" fill="#0c2426" stroke="#5fcbc0" stroke-width="1" opacity="0.9"/>
+    <circle cx="${cx}" cy="${cy}" r="14" fill="#5fcbc0"/>
+    <circle cx="${cx}" cy="${cy}" r="5" fill="#0c2426"/>
+  `;
+}
+
+/* ── donut ───────────────────────────────────────────────── */
+function renderDonut(pet, eps) {
+  const svg = document.getElementById('donut');
+  const cx = 60, cy = 60, r = 46;
+  const petDeg = 360 * (pet / 100);
+  svg.innerHTML = `
+    <circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="#1f4a47" stroke-width="16"/>
+    <path d="${describeArc(cx,cy,r,0,petDeg)}" fill="none" stroke="var(--sand)" stroke-width="16"/>
+    <path d="${describeArc(cx,cy,r,petDeg,360)}" fill="none" stroke="var(--coral)" stroke-width="16"/>
+    <text x="${cx}" y="${cy-2}" text-anchor="middle" fill="#f2f4ef" font-family="IBM Plex Mono" font-size="15" font-weight="600">${pet}/${eps}</text>
+    <text x="${cx}" y="${cy+14}" text-anchor="middle" fill="#7fa19c" font-family="IBM Plex Mono" font-size="8">PET / EPS %</text>
+  `;
+}
+
+/* ── tabla historial ─────────────────────────────────────── */
+function renderHistory(rows) {
+  if (!rows || rows.length === 0) return;
+  const body = document.getElementById('hist-body');
+  body.innerHTML = rows.map(row => {
+    const dominant = (row.pet >= row.eps) ? 'pet' : 'eps';
+    return `<tr>
+      <td>${row.time}</td>
+      <td><span class="tag ${dominant}">${dominant.toUpperCase()}</span></td>
+      <td>${row.pet}%</td>
+      <td>${row.eps}%</td>
+      <td>${row.confianza}%</td>
+      <td>${Number(row.turbidez).toFixed(1)} NTU</td>
+      <td>${Number(row.tds).toFixed(0)} µS/cm</td>
+    </tr>`;
+  }).join('');
+}
+
+/* ── arranque ────────────────────────────────────────────── */
+document.getElementById('refresh-btn').addEventListener('click', fetchDatos);
+window.addEventListener('resize', () => {
+  drawSpark('turb-spark', state.turbSeries, '#5fcbc0');
+  drawSpark('cond-spark', state.condSeries, '#5fcbc0');
+});
+
+fetchDatos();                           // primera carga inmediata
+setInterval(fetchDatos, POLL_MS);       // polling cada 3 segundos
+</script>
+</body>
+</html>
